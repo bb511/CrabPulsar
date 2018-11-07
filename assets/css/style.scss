@@ -1,0 +1,96 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@font-face {
+    font-family: "Bebas";
+    src: url("{{ site.baseurl }}/assets/fonts/bebas_neue/TTF's/BebasNeue\ Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BebasBold";
+    src: url("{{ site.baseurl }}/assets/fonts/bebas_neue/TTF's/BebasNeue\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Archivo";
+    src: url("{{ site.baseurl }}/assets/fonts/archivo/Archivo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ArchivoBold";
+    src: url("{{ site.baseurl }}/assets/fonts/archivo/Archivo-Bold.ttf") format("truetype");
+}
+
+.btn{
+  border-color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 1;
+}
+.page-header{
+	background-image: url("{{ site.baseurl }}/assets/images/header.jpg");
+}
+
+.project-name{
+  font-family: "Archivo";
+	color: white;
+  text-shadow:
+    -1.5px -1.5px 0 #000,  
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+  font-size: 90px;
+}
+
+.project-tagline {
+  font-family: "ArchivoBold";
+  margin-top: -10px;
+  color: white;
+  opacity: 1;
+  text-shadow:
+    -0.9px -0.9px 0 #000,  
+    0.9px -0.9px 0 #000,
+    -0.9px 0.9px 0 #000,
+    0.9px 0.9px 0 #000;
+  font-size: 30px;  
+}
+
+.menu {
+  position:absolute;
+  margin-top: -52px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu li a:hover {
+  background-color: #111;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-left: 465px;
+  overflow: hidden;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
