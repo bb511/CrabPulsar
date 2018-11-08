@@ -13,6 +13,11 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    {% include slider_styles.html %}
+
+    {% if page.use_math %}
+      {% include mathjax_support.html %}
+    {% endif %}
   </head>
   <body>
 
@@ -20,7 +25,7 @@
         <h1>Crab Pulsar Experiment</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
-      
+
       <div id="banner">
               <span id="logo"></span>
 
