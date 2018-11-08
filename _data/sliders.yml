@@ -1,0 +1,19 @@
+# -----------------------------------------------------------------------------------------------
+#                   W -> enu
+#-----------------------------------------------------------------------------------------------
+- selector: WenuParameters
+  bullets: true
+  captions: true
+  images:
+    - src: /assets/figures/Wboson/pt_1.jpg
+      alt: Transverse momentum
+    - src: /assets/figures/Wboson/etmiss_1.jpg
+      alt: Missing Energy
+    - src: /assets/figures/Wboson/delphi_1.jpg
+      alt: Delta Phi
+    - src: /assets/figures/Wboson/Eta_1.jpg
+      alt: Pseudo-rapidity
+  settings:
+    height: 500
+    effect: "'fade'"
+    animationSpeed: 100
