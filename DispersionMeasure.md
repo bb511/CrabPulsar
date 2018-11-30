@@ -4,5 +4,5 @@ title: Crab Pulsar
 use_math: true
 ---
 
-## Crab Timing stuff
+## Dispersion Measure
 Content goes here.
