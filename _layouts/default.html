@@ -27,7 +27,9 @@
       </header>
 
       <div id="banner">
-              <span id="logo"></span>
+              <span id="logo">
+                <img src="/assets/images/logo.JPEG">
+              </span>
 
               <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
               <div class="downloads">
@@ -43,19 +45,24 @@
                 </div>
 
       </div><!-- end banner -->
-
+    
     <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
+      
+        <nav>
+          <ul>
+            <li></li>
+          </ul>
+        </nav>
+
+      <b><section></b>
         {{ content }}
       </section>
+      
       <footer>
         {% if site.github.is_project_page %}
-          <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <a href="https://bb511.github.io/CrabPulsar/" style="color: #e6e6e6"><u>This website</u></a><span style="color: white"> is maintained by</span> <b><a href="https://github.com/SoumyaShreeram" style="color: #e6e6e6"><u>Soumya Shreeram</u></a></b><span style="color: white"> and </span> <br><b><a href="{{ site.github.owner_url }}" style="color: #e6e6e6"><u>Patrick Odagiu</u></a></b>.</p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+
       </footer>
     </div>
 

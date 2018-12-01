@@ -3,18 +3,30 @@
 
 @import "{{ site.theme }}";
 
+body {
+  font:15px, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight:500;
+  margin: 0px;
+  padding:0px 0 20px 0px;
+  background: url(../images/body-background.png) #eae6d1;
+}
 
+h3, h4, h5, h6 {
+  color:#5200cc;
+}
 
 #banner {
+
   z-index: 100;
   left:0;
-  right:20%;
+  right:50%;
   height: 50px;
-  margin-right:-150px;
+  margin-right:-700px;
   position: fixed;
   top: 115px;
   background: #000000;
-  border: 1px solid #000000;
+  border: 0.5px solid black;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
   border-radius: 0px 2px 2px 0px;
   padding-right: 10px;
@@ -68,27 +80,104 @@
 
   ul {
     list-style:none;
-    height:40px;
+    height:80px;
     padding:0;
     float: left;
     margin-left:10px;
+      
 
     li {
       display:inline;
 
       a.button {
         background-color: #FFE788;
+        font-size:16px;
       }
     }
   }
 
-  #logo {
-    position:absolute;
-    height: 36px;
-    width: 36px;
-    right:7px;
-    top:7px;
-    display: block;
-    background: url('/assests/images/logo.jpeg') ;
+#logo {
+  position:absolute;
+  height: 10px;
+  width: 10%;
+  right: 0.5px;
+  top: 0.5px;
+  display: block;
+  
+      }  
+}
+
+.wrapper {
+
+  width:650px;
+  margin:0 auto;
+  position:relative;  
+}
+
+nav {
+  width: 230px;
+  position: fixed;
+  top: 220px;
+  left:50%;
+  margin-left:-580px;
+  text-align: right;
+
+  ul {
+    list-style: none;
+    list-style-image:none;
+    font-size: 16px;
+    line-height:28px;
+
+    li {
+      padding: 5px 0px;
+      line-height: 18px;
+      padding-right:17px;
+      position:relative;
+      right:-12px;
+
+      &.tag-h1 {
+        font-size: 1.2em;
+
+        a {
+          font-weight: bold;
+          color: white;
+        }
+
+        + .tag-h2 {
+
+        }
+      }
+
+      &.tag-h2 {
+
+        + .tag-h1 {
+          margin-top:10px;
+        }
+      }
+    }
+
+    a {
+      color: white;
+
+      &:hover { color: yellow; }
+    }
+
+    .active {
+      border-right:solid 4px #39C;
+      padding-right:13px;
+    }
   }
+}
+
+footer {
+  width:180px;
+  position: fixed;
+  left:50%;
+  margin-left:-530px;
+  bottom:20px;
+  text-align: right;
+  line-height: 16px;
+  font-weight: bold;
+  font-color: black;
+  font-size: 14px;
 }
