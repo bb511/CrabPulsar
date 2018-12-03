@@ -1,18 +1,22 @@
 # -----------------------------------------------------------------------------------------------
-#                   W -> enu
+#                   Searching for pulsars: Fourier Analysis
 #-----------------------------------------------------------------------------------------------
-- selector: WenuParameters
+- selector: F
   bullets: true
   captions: true
-  images:
-    - src: /assets/figures/Wboson/pt_1.jpg
-      alt: Transverse momentum
-    - src: /assets/figures/Wboson/etmiss_1.jpg
-      alt: Missing Energy
-    - src: /assets/figures/Wboson/delphi_1.jpg
-      alt: Delta Phi
-    - src: /assets/figures/Wboson/Eta_1.jpg
-      alt: Pseudo-rapidity
+  images: 
+    - src: /materials/Code/ResultPictures2/ .jpg
+      alt: Pulsar 1
+    - src: /materials/Code/ResultPictures2/ .jpg
+      alt: Pulsar 2
+    - src: /materials/Code/ResultPictures2/ .jpg
+      alt: Pulsar 3
+    - src: /materials/Code/ResultPictures2/ .jpg
+      alt: Pulsar 4
+    - src: /materials/Code/ResultPictures2/ .jpg
+      alt: Pulsar 5
+    - src: /materials/Code/ResultPictures2/ .jpg
+      alt: Pulsar 6            
   settings:
     height: 500
     effect: "'fade'"
