@@ -1,4 +1,5 @@
 theme: jekyll-theme-leap-day
+markdown: Kramdown
 repository: bb511/CrabPulsar
 plugins:
   - jemoji
