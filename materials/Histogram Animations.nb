@@ -1,0 +1,164 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5770,        156]
+NotebookOptionsPosition[      5287,        133]
+NotebookOutlinePosition[      5623,        148]
+CellTagsIndexPosition[      5580,        145]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Animations", "Title",
+ CellChangeTimes->{{3.75286753564963*^9, 3.752867537206027*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", "Preliminaries", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"SetDirectory", "[", 
+    RowBox[{"FileNameJoin", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<Data\>\"", " ", ",",
+        " ", "\"\<Histograms\>\""}], "}"}], "]"}], "]"}], ";"}]}]], "Input",
+ CellChangeTimes->{{3.752867405285795*^9, 3.752867432415255*^9}, {
+  3.7528674996840563`*^9, 3.752867550963524*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["B0329+54_w1", "Chapter",
+ CellChangeTimes->{3.7528675670429153`*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{"Import", " ", "the", " ", "data"}], "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"data", " ", "=", " ", 
+     RowBox[{"Import", "[", 
+      RowBox[{"\"\<B0329+54_w1.txt\>\"", ",", " ", "\"\<Table\>\""}], "]"}]}],
+     ";"}], "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"data", " ", "=", " ", 
+     RowBox[{"Transpose", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"data", "[", 
+         RowBox[{"[", 
+          RowBox[{"All", ",", "2"}], "]"}], "]"}], ",", 
+        RowBox[{"data", "[", 
+         RowBox[{"[", 
+          RowBox[{"All", ",", "3"}], "]"}], "]"}]}], "}"}], "]"}]}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"DensityHistogram", "[", 
+       RowBox[{
+        RowBox[{"data", "[", 
+         RowBox[{"[", 
+          RowBox[{";;", "t"}], "]"}], "]"}], ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"20", ",", "40", ",", "2"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"1.42", ",", "1.46", ",", "0.005"}], "}"}]}], "}"}], ",", 
+        " ", 
+        RowBox[{"ColorFunction", "\[Rule]", "\"\<SolarColors\>\""}], ",", 
+        RowBox[{"PlotRange", "\[Rule]", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"20", ",", "40"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"1.42", ",", "1.46"}], "}"}]}], "}"}]}], ",", " ", 
+        RowBox[{"ImageSize", "\[Rule]", "700"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", "2", ",", 
+        RowBox[{"Length", "@", "data"}], ",", "2"}], "}"}]}], "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"Export", "[", 
+    RowBox[{"\"\<B0329+54_w1.gif\>\"", ",", "%", ",", " ", 
+     RowBox[{"\"\<AnimationRepetitions\>\"", "\[Rule]", "\[Infinity]"}]}], 
+    "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.752867572097911*^9, 3.7528676391287813`*^9}, {
+   3.752867669216206*^9, 3.752867705250082*^9}, {3.752867774197485*^9, 
+   3.752867804606723*^9}, 3.752867912057082*^9, {3.7528679941135483`*^9, 
+   3.752868025312798*^9}, {3.752868086468142*^9, 3.752868155320408*^9}, {
+   3.7528681965485992`*^9, 3.752868201477624*^9}, {3.752868236775028*^9, 
+   3.752868243516014*^9}, {3.752868281067912*^9, 3.7528682898416233`*^9}, {
+   3.7528683882372627`*^9, 3.752868391850772*^9}, {3.752868451256441*^9, 
+   3.752868464493355*^9}, {3.75286861447033*^9, 3.752868674710988*^9}, {
+   3.7528687679627542`*^9, 3.7528689115356483`*^9}, {3.7528690199511766`*^9, 
+   3.7528691532510633`*^9}, {3.752869315217396*^9, 3.7528693252926073`*^9}, {
+   3.7528693603056*^9, 3.7528694488030376`*^9}, 3.752869484492795*^9, {
+   3.752869521512916*^9, 3.752869594772785*^9}, {3.7528696253124323`*^9, 
+   3.7528696955814457`*^9}, {3.7528697435118303`*^9, 3.752869789250575*^9}, {
+   3.752869826614867*^9, 3.7528698899099407`*^9}, {3.752870016980136*^9, 
+   3.752870029262988*^9}, {3.75287011251493*^9, 3.752870171650072*^9}, {
+   3.752870204878043*^9, 3.752870233593542*^9}, {3.752870264561438*^9, 
+   3.752870360431552*^9}, {3.752870530374256*^9, 3.752870564888267*^9}, {
+   3.7528706698431787`*^9, 3.752870687541535*^9}, {3.7528707962723293`*^9, 
+   3.752870837591631*^9}, {3.752870897277154*^9, 3.7528709027692223`*^9}, {
+   3.752870997177936*^9, 3.752871008003587*^9}, {3.7528712944088507`*^9, 
+   3.7528713132879143`*^9}}],
+
+Cell[BoxData["\<\"B0329+54_w1.gif\"\>"], "Output",
+ CellChangeTimes->{{3.752869649590733*^9, 3.752869696960115*^9}, 
+   3.752869790313821*^9, {3.752869829360038*^9, 3.752869891108*^9}, {
+   3.752870119088346*^9, 3.7528701725976133`*^9}, {3.752870206212226*^9, 
+   3.752870234342189*^9}, 3.7528702659686127`*^9, {3.752870310231653*^9, 
+   3.7528703613317547`*^9}, 3.752870570459165*^9, {3.7528706716826973`*^9, 
+   3.752870688410719*^9}, 3.752870840196053*^9, 3.752871015067799*^9, 
+   3.7528712079378757`*^9, 3.752871468445492*^9}]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1157, 911},
+WindowMargins->{{Automatic, 270}, {Automatic, 80}},
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (July 28, 2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 92, 1, 93, "Title"],
+Cell[675, 25, 473, 11, 57, "Input"],
+Cell[CellGroupData[{
+Cell[1173, 40, 74, 1, 66, "Chapter"],
+Cell[CellGroupData[{
+Cell[1272, 45, 3441, 74, 166, "Input"],
+Cell[4716, 121, 531, 7, 32, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
