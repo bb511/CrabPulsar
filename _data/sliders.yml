@@ -2,7 +2,7 @@
 #                   Searching for pulsars: Fourier Analysis
 #-----------------------------------------------------------------------------------------------
 - selector: Corrections
-  bullets: true
+  bullets: false
   captions: true
   images: 
     - src: /materials/Code/ResultPictures2/Corrections/C1.png
@@ -18,30 +18,33 @@
     - src: /materials/Code/ResultPictures2/Corrections/C6.png
       alt: Pulsar 6            
   settings:
-    height: "'auto'" 
+    height: 498 
     effect: "'fade'"
     animationSpeed: 100
+    position: absolute;
+    
 
 - selector: FFT
   bullets: true
   captions: true
   images: 
-    - src: /materials/Code/ResultPictures2/FFT/FFT1.png
+    - src: /materials/Code/ResultPictures2/FourierT/FFT1.png
       alt: Pulsar 1
-    - src: /materials/Code/ResultPictures2/FFT/FFT2.png
+    - src: /materials/Code/ResultPictures2/FourierT/FFT2.png
       alt: Pulsar 2
-    - src: /materials/Code/ResultPictures2/FFT/FFT3.png
+    - src: /materials/Code/ResultPictures2/FourierT/FFT3.png
       alt: Pulsar 3
-    - src: /materials/Code/ResultPictures2/FFT/FFT4.png
+    - src: /materials/Code/ResultPictures2/FourierT/FFT4.png
       alt: Pulsar 4
-    - src: /materials/Code/ResultPictures2/FFT/FFT5.png
+    - src: /materials/Code/ResultPictures2/FourierT/FFT5.png
       alt: Pulsar 5
-    - src: /materials/Code/ResultPictures2/FFT/FFT6.png
+    - src: /materials/Code/ResultPictures2/FourierT/FFT6.png
       alt: Pulsar 6            
   settings:
-    height: "'auto'"
+    height: 600
     effect: "'fade'"
     animationSpeed: 100
+    max-width : 300
 
 - selector: Fit
   bullets: true

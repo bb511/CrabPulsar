@@ -7,13 +7,15 @@
   width: device-width;
 }
 
+
 body {
-  font:15px, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:16px, 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
   font-weight:500;
-  margin: 0px;
+  margin: -20px;
   padding:0px 0 20px 0px;
   background: url(../images/body-background.png) #eae6d1;
+  
 }
 
 h3, h4, h5, h6 {
@@ -122,8 +124,8 @@ nav {
   width: 330px;
   position: fixed;
   top: 220px;
-  left:39%;
-  margin-left:-580px;
+  left:50%;
+  margin-left:-680px;
   text-align: right;
 
   ul {
