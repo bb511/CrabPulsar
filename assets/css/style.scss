@@ -15,7 +15,8 @@ body {
   margin: -20px;
   padding:0px 0 20px 0px;
   background: url(../images/body-background.png) #eae6d1;
-  
+  height: 100vh;
+  width: 100vw;
 }
 
 h3, h4, h5, h6 {
@@ -90,7 +91,7 @@ h3, h4, h5, h6 {
     padding:0;
     float: left;
     margin-left:10px;
-      
+
 
     li {
       display:inline;
@@ -109,15 +110,15 @@ h3, h4, h5, h6 {
   right: 0.5px;
   top: 0.5px;
   display: block;
-  
-      }  
+
+      }
 }
 
 .wrapper {
 
   width:650px;
   margin:0 auto;
-  position:relative;  
+  position:relative;
 }
 
 nav {

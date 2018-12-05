@@ -4,42 +4,42 @@
 - selector: Corrections
   bullets: false
   captions: true
-  images: 
-    - src: /materials/Code/ResultPictures2/Corrections/C1.png
+  images:
+    - src: /materials/ResultPictures2/Corrections/C1.png
       alt: Pulsar 1
-    - src: /materials/Code/ResultPictures2/Corrections/C2.png
+    - src: /materials/ResultPictures2/Corrections/C2.png
       alt: Pulsar 2
-    - src: /materials/Code/ResultPictures2/Corrections/C3.png
+    - src: /materials/ResultPictures2/Corrections/C3.png
       alt: Pulsar 3
-    - src: /materials/Code/ResultPictures2/Corrections/C4.png
+    - src: /materials/ResultPictures2/Corrections/C4.png
       alt: Pulsar 4
-    - src: /materials/Code/ResultPictures2/Corrections/C5.png
+    - src: /materials/ResultPictures2/Corrections/C5.png
       alt: Pulsar 5
-    - src: /materials/Code/ResultPictures2/Corrections/C6.png
-      alt: Pulsar 6            
+    - src: /materials/ResultPictures2/Corrections/C6.png
+      alt: Pulsar 6
   settings:
-    height: 498 
+    height: 498
     effect: "'fade'"
     animationSpeed: 100
     position: absolute;
-    
+
 
 - selector: FFT
   bullets: true
   captions: true
-  images: 
-    - src: /materials/Code/ResultPictures2/FourierT/FFT1.png
+  images:
+    - src: /materials/ResultPictures2/FourierT/FFT1.png
       alt: Pulsar 1
-    - src: /materials/Code/ResultPictures2/FourierT/FFT2.png
+    - src: /materials/ResultPictures2/FourierT/FFT2.png
       alt: Pulsar 2
-    - src: /materials/Code/ResultPictures2/FourierT/FFT3.png
+    - src: /materials/ResultPictures2/FourierT/FFT3.png
       alt: Pulsar 3
-    - src: /materials/Code/ResultPictures2/FourierT/FFT4.png
+    - src: /materials/ResultPictures2/FourierT/FFT4.png
       alt: Pulsar 4
-    - src: /materials/Code/ResultPictures2/FourierT/FFT5.png
+    - src: /materials/ResultPictures2/FourierT/FFT5.png
       alt: Pulsar 5
-    - src: /materials/Code/ResultPictures2/FourierT/FFT6.png
-      alt: Pulsar 6            
+    - src: /materials/ResultPictures2/FourierT/FFT6.png
+      alt: Pulsar 6
   settings:
     height: 600
     effect: "'fade'"
@@ -49,63 +49,62 @@
 - selector: Fit
   bullets: true
   captions: true
-  images: 
-    - src: /materials/Code/ResultPictures2/Fit/FIT1.png
+  images:
+    - src: /materials/ResultPictures2/Fit/FIT1.png
       alt: Pulsar 1
-    - src: /materials/Code/ResultPictures2/Fit/FIT2.png
+    - src: /materials/ResultPictures2/Fit/FIT2.png
       alt: Pulsar 2
-    - src: /materials/Code/ResultPictures2/Fit/FIT3.png
+    - src: /materials/ResultPictures2/Fit/FIT3.png
       alt: Pulsar 3
-    - src: /materials/Code/ResultPictures2/Fit/FIT4.png
+    - src: /materials/ResultPictures2/Fit/FIT4.png
       alt: Pulsar 4
-    - src: /materials/Code/ResultPictures2/Fit/FIT5.png
+    - src: /materials/ResultPictures2/Fit/FIT5.png
       alt: Pulsar 5
-    - src: /materials/Code/ResultPictures2/Fit/FIT6.png
-      alt: Pulsar 6            
+    - src: /materials/ResultPictures2/Fit/FIT6.png
+      alt: Pulsar 6
   settings:
     height: "'auto'"
     effect: "'fade'"
     animationSpeed: 100
-    max-width : 500    
+    max-width : 500
 
 - selector: Period
   bullets: true
   captions: true
-  images: 
-    - src: /materials/Code/ResultPictures2/Period/p1.png
+  images:
+    - src: /materials/ResultPictures2/Period/p1.png
       alt: Pulsar 1
-    - src: /materials/Code/ResultPictures2/Period/p2.png
+    - src: /materials/ResultPictures2/Period/p2.png
       alt: Pulsar 2
-    - src: /materials/Code/ResultPictures2/Period/p3.png
+    - src: /materials/ResultPictures2/Period/p3.png
       alt: Pulsar 3
-    - src: /materials/Code/ResultPictures2/Period/p4.png
+    - src: /materials/ResultPictures2/Period/p4.png
       alt: Pulsar 4
-    - src: /materials/Code/ResultPictures2/Period/p5.png
+    - src: /materials/ResultPictures2/Period/p5.png
       alt: Pulsar 5
-    - src: /materials/Code/ResultPictures2/Period/p6.png
-      alt: Pulsar 6            
+    - src: /materials/ResultPictures2/Period/p6.png
+      alt: Pulsar 6
   settings:
     height: "'auto'"
     effect: "'fade'"
-    animationSpeed: 100        
 
 - selector: TS
   bullets: true
   captions: true
-  images: 
-    - src: /materials/Code/ResultPictures2/TS/TS1.png
+  images:
+    - src: /materials/ResultPictures2/TS/TS1.png
       alt: Pulsar 1
-    - src: /materials/Code/ResultPictures2/TS/TS2.png
+    - src: /materials/ResultPictures2/TS/TS2.png
       alt: Pulsar 2
-    - src: /materials/Code/ResultPictures2/TS/TS3.png
+    - src: /materials/ResultPictures2/TS/TS3.png
       alt: Pulsar 3
-    - src: /materials/Code/ResultPictures2/TS/TS4.png
+    - src: /materials/ResultPictures2/TS/TS4.png
       alt: Pulsar 4
-    - src: /materials/Code/ResultPictures2/TS/TS5.png
+    - src: /materials/ResultPictures2/TS/TS5.png
       alt: Pulsar 5
-    - src: /materials/Code/ResultPictures2/TS/TS6.png
-      alt: Pulsar 6            
+    - src: /materials/ResultPictures2/TS/TS6.png
+      alt: Pulsar 6
   settings:
     height: "'auto'"
     effect: "'fade'"
-    animationSpeed: 100     
+    animationSpeed: 100

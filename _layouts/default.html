@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -13,7 +13,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
 
 
     {% include slider_styles.html %}
@@ -23,7 +23,7 @@
     {% endif %}
   </head>
   <body>
-  
+
       <header>
         <h1>The Crab Pulsar Experiment</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
@@ -31,7 +31,7 @@
 
       <div id="banner">
               <span id="logo">
-                <img src="/assets/images/logo.JPEG">
+                <img src="/assets/images/logo.jpeg">
               </span>
 
               <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
@@ -48,9 +48,9 @@
                 </div>
 
       </div><!-- end banner -->
-    
+
     <div class="wrapper">
-      
+
         <nav>
           <ul>
             <li></li>
@@ -60,7 +60,7 @@
       <b><section></b>
         {{ content }}
       </section>
-      
+
       <footer>
         {% if site.github.is_project_page %}
           <a href="https://bb511.github.io/CrabPulsar/" style="color: #e6e6e6"><u>This website</u></a><span style="color: white"> is maintained by</span> <b><a href="https://github.com/SoumyaShreeram" style="color: #e6e6e6"><u>Soumya Shreeram</u></a></b><span style="color: white"> and </span> <br><b><a href="{{ site.github.owner_url }}" style="color: #e6e6e6"><u>Patrick Odagiu</u></a></b>.</p>
@@ -81,6 +81,6 @@
     {% endif %}
 
     {% include slider_scripts.html %}
-  
+
   </body>
 </html>
