@@ -65,7 +65,8 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
-    animationSpeed: 100    
+    animationSpeed: 100
+    max-width : 500    
 
 - selector: Period
   bullets: true
