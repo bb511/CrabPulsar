@@ -1,6 +1,6 @@
-# -----------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 #                   Searching for pulsars: Fourier Analysis
-#-----------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 - selector: Corrections
   bullets: false
   captions: true
@@ -108,3 +108,68 @@
     height: "'auto'"
     effect: "'fade'"
     animationSpeed: 100
+
+# ------------------------------------------------------------------------------
+#                       Dispersion measure analysis
+#-------------------------------------------------------------------------------
+
+- selector: DensityPlots
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures1/DensityPlots/B0329+54_w1.png
+      alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/DensityPlots/B0329+54_w2.png
+      alt: B0329+54 Pulsar
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: IntegratedProfiles
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures1/IntegratedProfiles/B0329+54_w1.png
+      alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/IntegratedProfiles/B0329+54_w2.png
+      alt: B0329+54 Pulsar
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: DMCurves
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures1/DMCurves/B0329+54_w1.png
+      alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/DMCurves/B0329+54_w2.png
+      alt: B0329+54 Pulsar
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+
+- selector: RowGrids
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures1/RowGrids/B0329+54_w1.png
+      alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/RowGrids/B0329+54_w2.png
+      alt: B0329+54 Pulsar
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: SpectrumFits
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures1/SpectrumFits/B0329+54_w1.png
+      alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/SpectrumFits/B0329+54_w2.png
+      alt: B0329+54 Pulsar
+  settings:
+    height: "'auto'"
+    effect: "'fade'"

@@ -23,12 +23,13 @@ Periodogram analysis requires high sensitivity to detect broad pulses with broad
 
 The data from a pulsar for a particular bandwidth is split into a number of independent frequency channels. This stored data is de-dispersed and the time series spectrum is obtained for the required integration time. The Fourier transform of the time series data stream is taken to precisely measure the period. Harmonics are a useful tool used for this measurement. Harmonics occur in the Fourier spectrum at integer multiples of the fundamental frequency. All periodic signals show harmonics. [Figure 1](#figure-1) summarizes the Fourier trasform technique of measuring unkown pulsar periods.
 
+<a name="figure-1"></a>
 <img  src="{{ "/materials/ResultPictures2/theory.png" | prepend: site.baseurl}}" alt="TheoryImg" width="600" height="445" align="center">
 
 #### [Figure 1](#figure-1): The process of measuring the period of an unknown pulsar is shown pictorially. The muti-channel data is first de-dispersed. The de-dispersed time series is then Fourier transformed. Harmonics are observed because of the period pulses from the pulsar. The period is then measured from the obtained information. <span style='color: red'> Note: Right click on the image and open in a new tab to see the zoomed in version of the schematic.</span>
 
 The $n^{th}$ harmonic has a frequency $v_n = Nv$ where $N$ is the total number of harmonics and $v$ is the fundamental frequency at which the first harmonic occurs, as shown in [Figure 2](#figure-2). By definition, the period, $p$, is equal to $1/v$. Therefore, $p$ can be obtained from the information of the harmonics and the frequency at which they occur.
-
+<a name="figure-2"></a>
 <img src="{{ "/materials/ResultPictures2/theory2.png" | prepend: site.baseurl}}" alt="TheoryImg" width="450" height="445">
 
 #### [Figure 2](#figure-2): The Fourier transform of the time series for the Pulsar 1 data set. The red points show the peaks in the power spectrum at different frequencies. They represent the harmnoics of the fundamental frequency $v$.
