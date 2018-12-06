@@ -39,7 +39,7 @@ plot(X2,Y1,'Parent',axes1,'DisplayName',['Max DM ~' num2str(X2)],...
     'LineStyle','none');
 
 % Create ylabel
-ylabel('Signal to Noise (mJy)','FontSize',15.4);
+ylabel('Signal to Noise','FontSize',15.4);
 
 % Create title
 title({'Disperiosn Measure vs S/N',...
@@ -66,5 +66,5 @@ set(plot2(2),'LineWidth',2,'Color',[1 0 0]);
 xlabel('Dispersion Measure (pc/cm^{-3})','FontSize',15.4);
 
 % Create ylabel
-ylabel('Residuals (mJy) ','FontSize',15.4);
+ylabel('Residuals','FontSize',15.4);
 

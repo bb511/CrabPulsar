@@ -28,7 +28,7 @@ function [x1, ymatrix1, x2, y1, ymatrix2] = fitting_data(x, y, degree)
     
     x2 = x(yFit==max_y);
     y1 = max_y;
-    
+        
     ymatrix2 = [(y-yFit); y.*zeros(size(x))];
     ymatrix2 = ymatrix2';
 

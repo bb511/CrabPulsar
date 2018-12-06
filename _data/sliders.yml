@@ -119,8 +119,6 @@
   images:
     - src: /materials/ResultPictures1/DensityPlots/B0329+54_w1.png
       alt: B0329+54 Pulsar
-    - src: /materials/ResultPictures1/DensityPlots/B0329+54_w2.png
-      alt: B0329+54 Pulsar
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -131,8 +129,6 @@
   images:
     - src: /materials/ResultPictures1/IntegratedProfiles/B0329+54_w1.png
       alt: B0329+54 Pulsar
-    - src: /materials/ResultPictures1/IntegratedProfiles/B0329+54_w2.png
-      alt: B0329+54 Pulsar
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -141,9 +137,7 @@
   bullets: true
   captions: true
   images:
-    - src: /materials/ResultPictures1/DMCurves/B0329+54_w1.png
-      alt: B0329+54 Pulsar
-    - src: /materials/ResultPictures1/DMCurves/B0329+54_w2.png
+    - src: /materials/ResultPictures1/DMCurves/B0329+54_w1.jpg
       alt: B0329+54 Pulsar
   settings:
     height: "'auto'"
@@ -156,8 +150,6 @@
   images:
     - src: /materials/ResultPictures1/RowGrids/B0329+54_w1.png
       alt: B0329+54 Pulsar
-    - src: /materials/ResultPictures1/RowGrids/B0329+54_w2.png
-      alt: B0329+54 Pulsar
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -168,7 +160,15 @@
   images:
     - src: /materials/ResultPictures1/SpectrumFits/B0329+54_w1.png
       alt: B0329+54 Pulsar
-    - src: /materials/ResultPictures1/SpectrumFits/B0329+54_w2.png
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: SpectrumFits
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures1/SpectrumFits/B0329+54_w1.png
       alt: B0329+54 Pulsar
   settings:
     height: "'auto'"
