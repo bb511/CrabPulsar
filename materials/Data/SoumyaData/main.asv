@@ -45,20 +45,8 @@ error_dm = x2 - err_dm(1);
 sprintf('DM = %0.4f ± %0.4f',x2, error_dm)
 
 %% get data from figure
-% gets the x and y values from the plot
-open('pulsar_something.fig');
-h = findobj(gca,'Type','line');
-xdata_p2 = get(h,'Xdata');
-ydata_p2 = get(h,'Ydata');
+open('pulsar_something.fig')
+h = findobj(gca,'Type','line')
+P2_X_bestfit=get(h,'Xdata')
+P2_y_bestfit=get(h,'Ydata')
 
-% need only the relavant fit data 'cell'
-xdata_p2 = xdata_p2(1, 1);
-ydata_p2 = ydata_p2(1, 1);
-
-% converts
-xdata_p2 = cell2mat(xdata_p2);
-ydata_p2 = cell2mat(ydata_p2);
-
-yfit_p2 = ydata_p2(ismember(xdata_p2, dm_ii));
-
-%% plotting the residual and main plot together

@@ -106,10 +106,97 @@ The DMs obtained from each of these fits together with their associated errors (
 
 content goes here
 
+
+
 ## 2.8 Distance from Electron Density Models
 
 content goes here.
 
 ## 2.9 Results Summary
 
-content goes here.
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-4p0o{font-weight:bold;background-color:#7f99fb;border-color:inherit;text-align:center}
+.tg .tg-opee{font-weight:bold;background-color:#ffffc7;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-w60v{font-weight:bold;background-color:#7f99fb;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-m3se{background-color:#ffccc9;border-color:inherit;text-align:center}
+.tg .tg-7srk{background-color:#ffccc9;border-color:inherit;text-align:left}
+.tg .tg-mfhl{background-color:#ffffc7;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-90e1{background-color:#ffccc9;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-bolj{background-color:#ffccc9;border-color:inherit;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-opee" rowspan="2">Pulsar Names</th>
+    <th class="tg-mfhl" colspan="3"><span style="font-weight:700">Dispersion Measure</span></th>
+  </tr>
+  <tr>
+    <td class="tg-4p0o">Fitting the curve</td>
+    <td class="tg-w60v">Fitting the spectrum</td>
+    <td class="tg-w60v">Monte Carlo</td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">B0329+54</td>
+    <td class="tg-xldj">25.6757 ± 3.2703</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">26.0490 ± 0.3591</td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">B0531+21(i)</td>
+    <td class="tg-xldj"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">56.4444 ± 0.0949</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B0531+21(ii)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">56.5726 ± 0.0886</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B0531+21(iii)</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">56.4234 ± 0.1250</td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">B1642-03</td>
+    <td class="tg-xldj"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">32.0871 ± 0.4578</td>
+  </tr>
+  <tr>
+    <td class="tg-m3se">B1929+10<br><span style="font-weight:bold">RFI</span><br></td>
+    <td class="tg-7srk"></td>
+    <td class="tg-90e1"></td>
+    <td class="tg-90e1">1.6116 ± 0.8074</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B1933+16</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">151.1997 ± 1.5803</td>
+  </tr>
+  <tr>
+    <td class="tg-bolj">B2016+28<br><span style="font-weight:bold">RFI</span><br></td>
+    <td class="tg-90e1"></td>
+    <td class="tg-90e1"></td>
+    <td class="tg-90e1">1.4712 ± 3.4911</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B2020+28</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">23.3594 ± 0.4248</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B2111+46</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">98.3332 ± 21.4281</td>
+  </tr>
+</table>
