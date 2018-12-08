@@ -122,12 +122,12 @@ content goes here.
 .tg .tg-opee{font-weight:bold;background-color:#ffffc7;border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-w60v{font-weight:bold;background-color:#7f99fb;border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-m3se{background-color:#ffccc9;border-color:inherit;text-align:center}
-.tg .tg-7srk{background-color:#ffccc9;border-color:inherit;text-align:left}
 .tg .tg-mfhl{background-color:#ffffc7;border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-xldj{border-color:inherit;text-align:left}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-90e1{background-color:#ffccc9;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
 .tg .tg-bolj{background-color:#ffccc9;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-90e1{background-color:#ffccc9;border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
@@ -147,37 +147,37 @@ content goes here.
   </tr>
   <tr>
     <td class="tg-xldj">B0531+21(i)</td>
-    <td class="tg-xldj"></td>
+    <td class="tg-xldj">55.5045 ± 1.1892</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">56.4444 ± 0.0949</td>
   </tr>
   <tr>
-    <td class="tg-0pky">B0531+21(ii)</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">56.5726 ± 0.0886</td>
+    <td class="tg-0lax">B0531+21(ii)</td>
+    <td class="tg-0lax">55.8018 ± 1.1892</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">56.5726 ± 0.0886</td>
   </tr>
   <tr>
-    <td class="tg-0pky">B0531+21(iii)</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">56.4234 ± 0.1250</td>
+    <td class="tg-0lax">B0531+21(iii)</td>
+    <td class="tg-0lax">56.0000 ± 1.3874</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">56.4234 ± 0.1250</td>
   </tr>
   <tr>
     <td class="tg-xldj">B1642-03</td>
-    <td class="tg-xldj"></td>
+    <td class="tg-xldj">33.3063 ± 6.1441</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">32.0871 ± 0.4578</td>
   </tr>
   <tr>
     <td class="tg-m3se">B1929+10<br><span style="font-weight:bold">RFI</span><br></td>
-    <td class="tg-7srk"></td>
-    <td class="tg-90e1"></td>
+    <td class="tg-m3se"></td>
+    <td class="tg-bolj"></td>
     <td class="tg-90e1">1.6116 ± 0.8074</td>
   </tr>
   <tr>
     <td class="tg-0pky">B1933+16</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">150.9510 ± 7.4074</td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">151.1997 ± 1.5803</td>
   </tr>
@@ -188,15 +188,15 @@ content goes here.
     <td class="tg-90e1">1.4712 ± 3.4911</td>
   </tr>
   <tr>
-    <td class="tg-0pky">B2020+28</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">23.3594 ± 0.4248</td>
+    <td class="tg-0lax">B2020+28</td>
+    <td class="tg-0lax">22.7027 ± 2.1802</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">23.3594 ± 0.4248</td>
   </tr>
   <tr>
-    <td class="tg-0pky">B2111+46</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">98.3332 ± 21.4281</td>
+    <td class="tg-0lax">B2111+46</td>
+    <td class="tg-0lax">98.6486 ± 3.4034</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">98.3332 ± 21.4281</td>
   </tr>
 </table>
