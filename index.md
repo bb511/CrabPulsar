@@ -26,3 +26,140 @@ The 13m (42ft) parabolic radio telescope is used to obtain data. Unwanted power 
 ## 1.3.2 Optimal Search techniques
 
 <span style="color: green"><b>Scattering effects</b></span> are less dominant at higher frequencies. The electron density distribution in the interstellar medium obscures the amount of dispersion. It is favorable to set observations at high frequency to lower scattering effects and to detect weak and distant pulsars. The sensitivity of the telescope increases as the square root of the <span style="color: green"><b>integration time</b></span>.
+
+
+## 1.4 Pulsars observations and visibility calculations
+
+### <u>1.4.1 Integration time</u>
+
+The experiemnt lasted for 4 weeks (November-2018) and 10 pulsars were observed during this period using the 43-ft telescope at Jodrell Bank Observatory, as detailed in [Table 1.1](#table-11). Random motions of electrons in the receiver ciircuits produce a power $P_{circuit}$, which is given by the Nyquist's theorem as, $P_{circuit} = k_B T$, where $T$ corresponds to the noise temperature. 
+If the <i>antenna temperature</i> $T_A = T$, the flux from the source $S$ follows,
+\begin{equation}
+	S = \frac{2k_B T_A}{A_e} = \frac{T_A}{G}
+\end{equation}
+where $A_e = \eta A$ is the effective collecting area of the telescope, $\eta$ is the efficiency $\approx55\%$, $A$ is the total collecting area and $G = A_e/(2k_B)$ is the $gain$. For the 42-ft telescope $G$ was calculated to be,
+\begin{equation}
+	\boxed{G = 0.0256\ K/Jy} 
+\end{equation}
+where $1\ Jy = 10^{-26} W m^{-2} Hz^{-1}$. 
+
+The source flux $S=S_{source}$ can be defined in terms of an equivalent <i>source temperature</i> as $T_{source} = G S_{source}$. Due to $G$ limitations for the telescope, the strongest pulsars $\approx 50\ mJy$ show $T_{source}\lesssim\ 1\ K$. The observed signal has a <i>background system temperature</i> defined as,
+\begin{equation}
+	T_{system} = T_{rec} + T_{spill} + T_{sky} 
+\end{equation}
+
+where $T_{rec} \approx\ 100\ K$ is the receiver noise temperature, $T_{spill} \approx 10\ K$ is the spillover temperature and $T_{sky} \approx 10\ K$ is the sky and atmospheric temperature. Thus $T_{source}$ has to compete with various background sources to be detected.  After calibrating the receiver, the most dominant effect competing with the pulsar signal is the root mean square fluctuations $\Delta T_{sys}$ which is given by the **radiometer equation** as,
+
+\begin{equation}
+	\Delta T_{sys} = \frac{T_{sys}}{\sqrt{n_pt\Delta f}}
+\end{equation}
+
+where $\Delta f$ is the observing bandwidth, $t$ is the integration time and $n_p=2$ for orthogonal polarisations being summed.
+
+The 'system-equivalent flux density (SFED)' is a measure of the sensitivity of a source with temperature equal to $\Delta T_{sys}$, i.e. SFED $= S_{sys} = T_{sys}/(\sqrt{n_pt\Delta f}G)$. Therefore, lower SFED indicate more sensitive systems which are able to detect faint and distant pulsars. Therefore, the minimum $t$ required to detect a source of $1\ Jy$ i.e. signal-to-noise ratio of 1, was calculated to using the formula,
+\begin{equation}
+	t_{min} = {\bigg[\frac{T_{sys}}{G\sqrt{n_p \Delta f}})\bigg]}^2.
+\end{equation}
+
+Additionally, the repeating signal of a pulsar contributed to increase the signal-to-noise by a factor of $\sqrt{\frac{P-W}{P}}$. The integration times and the corresponding signal-to-noise ratios for all the observed pulsars are given in [Table 1.1](#table-11).
+<a name="table-11"></a>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-bab8{background-color:#c3ffd7;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-cjtp{background-color:#ecf4ff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-qjc1{background-color:#c3ffd7;border-color:inherit;text-align:center}
+.tg .tg-7e68{background-color:#c9fb8c;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-dup2{background-color:#c3ffd7;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-5w3z{background-color:#ecf4ff;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-fgdu{font-weight:bold;background-color:#ecf4ff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-7btt{font-weight:bold;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-hafo{background-color:#fffc9e;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-elvq{background-color:#fffc9e;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-p6l2{font-style:italic;text-decoration:underline;background-color:#c3ffd7;border-color:inherit;text-align:center}
+.tg .tg-2pvn{font-style:italic;text-decoration:underline;background-color:#c3ffd7;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-bolj{background-color:#ffccc9;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-90e1{background-color:#ffccc9;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-ark0{background-color:#ffccc9;color:#343434;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-aw1e{background-color:#c9fb8c;border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-cjtp"><span style="font-weight:bold">Week Number</span></th>
+    <th class="tg-fgdu">Pulsar Names</th>
+    <th class="tg-5w3z"><span style="font-weight:bold">Integration Time (s)</span><br><span style="font-weight:bold">(seconds)</span><br></th>
+    <th class="tg-cjtp"><span style="font-weight:bold">Signal to Noise ratio</span></th>
+  </tr>
+  <tr>
+    <td class="tg-c3ow"><span style="font-weight:bold">1 </span></td>
+    <td class="tg-qjc1">B0329+54</td>
+    <td class="tg-bab8">2149</td>
+    <td class="tg-bab8"></td>
+  </tr>
+  <tr>
+    <td class="tg-7btt" rowspan="4"><br><br><br>2<br><br></td>
+    <td class="tg-hafo">B0355+54</td>
+    <td class="tg-elvq">6236</td>
+    <td class="tg-elvq">10</td>
+  </tr>
+  <tr>
+    <td class="tg-p6l2">B0531+21(i)</td>
+    <td class="tg-bab8">16241</td>
+    <td class="tg-bab8">5</td>
+  </tr>
+  <tr>
+    <td class="tg-dup2">B2020+28</td>
+    <td class="tg-bab8">7278</td>
+    <td class="tg-bab8">15</td>
+  </tr>
+  <tr>
+    <td class="tg-dup2">B1933+16</td>
+    <td class="tg-bab8">7527</td>
+    <td class="tg-bab8">15</td>
+  </tr>
+  <tr>
+    <td class="tg-7btt" rowspan="4"><br><br><br>3<br><br></td>
+    <td class="tg-2pvn">B0531+21(ii)</td>
+    <td class="tg-bab8">16241</td>
+    <td class="tg-bab8">10</td>
+  </tr>
+  <tr>
+    <td class="tg-bolj">B2016+28</td>
+    <td class="tg-90e1">8848</td>
+    <td class="tg-90e1">15</td>
+  </tr>
+  <tr>
+    <td class="tg-qjc1">B1642-03</td>
+    <td class="tg-bab8">7208</td>
+    <td class="tg-bab8">15</td>
+  </tr>
+  <tr>
+    <td class="tg-hafo">B2021+51</td>
+    <td class="tg-elvq">5646</td>
+    <td class="tg-elvq">15</td>
+  </tr>
+  <tr>
+    <td class="tg-7btt" rowspan="3"><br><br><br>4<br></td>
+    <td class="tg-2pvn">B0531+21(iii)</td>
+    <td class="tg-bab8">16241</td>
+    <td class="tg-bab8">5</td>
+  </tr>
+  <tr>
+    <td class="tg-ark0">B1929+10</td>
+    <td class="tg-90e1">7563</td>
+    <td class="tg-90e1">15</td>
+  </tr>
+  <tr>
+    <td class="tg-7e68">B2111+46</td>
+    <td class="tg-aw1e">5720</td>
+    <td class="tg-aw1e">7</td>
+  </tr>
+</table>
+
+#### [Table 1.1](#table-11): All the pulsars observed are summarized. The green boxes signify the good measurements. The yellow boxes signify the measurements which were dominated by noise. Red boxes correspond to measurement which were discarded due to strong radio interference, RFI, of earth signals during the time of measurement. The yellow-green box signifies the noise dominated signal which was weakly detected. Note: due to bad weather conditions in week 4, observations suffered due to interference.
+
+### <u>1.4.2 Visibility</u>
+

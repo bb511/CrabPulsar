@@ -8,14 +8,15 @@ image_sliders:
 - DMCurves
 - RowGrids
 - SpectrumFits
+- MonteCarlo
 ---
 
 
 ## 2.1 Introduction
 
-Pulsars are relatively weak radio sources due to their small size. They usually emit their largest intensity at low radio frequencies around 400 MHz. However, at such frequencies, the pulses suffer from propagation effects when they through the interstellar medium to reach Earth [[4](About.md#3)].
+Pulsars are relatively weak radio sources due to their small size. They usually emit their largest intensity at low radio frequencies around 400 MHz. However, at such frequencies, the pulses suffer from propagation effects when they travel through the interstellar medium to reach Earth [[4](About.md#3)].
 
-The phenomenon is quantified in a term called the Dispersion Measure (DM). The DM is important in pulsar astronomy since it is one of the most definite facts that characterizes a pulsar [[5](About.md#5)]. Furthermore, once measured, the dispersion measure of a pulsar can be used to approximate the distance to that pulsar [[6,7](About.md#6)].
+The phenomenon is quantified in a term called the Dispersion Measure (DM). The DM is important in pulsar astronomy since it is one of the most fundamental property that characterizes a pulsar [[5](About.md#5)]. Furthermore, once measured, the dispersion measure of a pulsar can be used to approximate the distance to that pulsar [[6,7](About.md#6)].
 
 ## 2.2 Theory
 
@@ -39,8 +40,6 @@ In this view, the dispersion measure is simply a constant of proportionality rel
 
 #### [Figure 1](#figure-1): Signal measured from a pulsar [[3](About.md#3)]. The top parts show the power measured per channel as a function of time, showing clear frequency-dependent arrival times, or dispersion. The bottom shows the dispersion-corrected pulse (sharp pulse).
 
-A single peak in the pulse profile implies that core emission beam is close to the magnetic axis (core emission model). A double peak model implies hollow emission cone surrounding the magnetic axis (cone emission model). While a triple peak profile is explained by the core-cone model. The patch model states that all components of the pulse profile are caused by scattered emission beams in the shape of a patch.
-Emission beam radius is given as, $$\rho = 5.4^o P^{-0.5}$$ <mark>Aside: need to check if we can calculate this.</mark>
 
 ## 2.3 Calculation of disperion measure
 
@@ -104,9 +103,18 @@ The DMs obtained from each of these fits together with their associated errors (
 
 ## 2.6 Method 3 - Monte Carlo Simulation
 
-content goes here
+<a name="figure-1"></a>
+
+![Noise1](/materials/ResultPictures1/noise1.png)
+
+<a name="figure-1"></a>
+
+![Noise2](/materials/ResultPictures1/noise2.png)
 
 
+{% include slider.html selector="MonteCarlo" %}
+
+#### [Slider 5.2](#slider-52): Fits of times against the inverse frequency squared times a constant (dispersion constant). The errors on the points were obtained from the frequency resolution.
 
 ## 2.8 Distance from Electron Density Models
 
@@ -121,13 +129,15 @@ content goes here.
 .tg .tg-4p0o{font-weight:bold;background-color:#7f99fb;border-color:inherit;text-align:center}
 .tg .tg-opee{font-weight:bold;background-color:#ffffc7;border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-w60v{font-weight:bold;background-color:#7f99fb;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-m3se{background-color:#ffccc9;border-color:inherit;text-align:center}
+.tg .tg-b2bz{background-color:#ffccc9;color:#9b9b9b;border-color:inherit;text-align:center}
+.tg .tg-ggp2{background-color:#ffccc9;color:#9b9b9b;border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-mfhl{background-color:#ffffc7;border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-xldj{border-color:inherit;text-align:left}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-bolj{background-color:#ffccc9;border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-90e1{background-color:#ffccc9;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-dw9n{background-color:#ffffff;color:#9b9b9b;border-color:inherit;text-align:center}
+.tg .tg-6zks{background-color:#ffccc9;color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-5po2{background-color:#ffffff;color:#c0c0c0;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-45hq{background-color:#ffccc9;color:#c0c0c0;border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
@@ -142,61 +152,120 @@ content goes here.
   <tr>
     <td class="tg-xldj">B0329+54</td>
     <td class="tg-xldj">25.6757 ± 3.2703</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">29.473 ± 2.489</td>
     <td class="tg-0pky">26.0490 ± 0.3591</td>
   </tr>
   <tr>
     <td class="tg-xldj">B0531+21(i)</td>
     <td class="tg-xldj">55.5045 ± 1.1892</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">56.4444 ± 0.0949</td>
+    <td class="tg-0pky">55.834 ± 0.410</td>
+    <td class="tg-0pky">55.6937 ± 0.0946</td>
   </tr>
   <tr>
-    <td class="tg-0lax">B0531+21(ii)</td>
-    <td class="tg-0lax">55.8018 ± 1.1892</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">56.5726 ± 0.0886</td>
+    <td class="tg-0pky">B0531+21(ii)</td>
+    <td class="tg-0pky">55.8018 ± 1.1892</td>
+    <td class="tg-0pky">55.656 ± 0.238</td>
+    <td class="tg-0pky">55.8819 ± 0.0805</td>
   </tr>
   <tr>
-    <td class="tg-0lax">B0531+21(iii)</td>
-    <td class="tg-0lax">56.0000 ± 1.3874</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">56.4234 ± 0.1250</td>
+    <td class="tg-0pky">B0531+21(iii)</td>
+    <td class="tg-0pky">56.0000 ± 1.3874</td>
+    <td class="tg-0pky">55.725 ± 0.385</td>
+    <td class="tg-0pky">55.9550 ± 0.0762</td>
   </tr>
   <tr>
     <td class="tg-xldj">B1642-03</td>
     <td class="tg-xldj">33.3063 ± 6.1441</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">32.434 ± 1.379</td>
     <td class="tg-0pky">32.0871 ± 0.4578</td>
   </tr>
   <tr>
-    <td class="tg-m3se">B1929+10<br><span style="font-weight:bold">RFI</span><br></td>
-    <td class="tg-m3se"></td>
-    <td class="tg-bolj"></td>
-    <td class="tg-90e1">1.6116 ± 0.8074</td>
+    <td class="tg-b2bz">B1929+10<br></td>
+    <td class="tg-dw9n" colspan="2">RFI</td>
+    <td class="tg-ggp2">1.6116 ± 0.8074</td>
   </tr>
   <tr>
     <td class="tg-0pky">B1933+16</td>
     <td class="tg-0pky">150.9510 ± 7.4074</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">158.009 ± 7.981</td>
     <td class="tg-0pky">151.1997 ± 1.5803</td>
   </tr>
   <tr>
-    <td class="tg-bolj">B2016+28<br><span style="font-weight:bold">RFI</span><br></td>
-    <td class="tg-90e1"></td>
-    <td class="tg-90e1"></td>
-    <td class="tg-90e1">1.4712 ± 3.4911</td>
+    <td class="tg-6zks">B2016+28<br></td>
+    <td class="tg-5po2" colspan="2"><span style="font-weight:700">RFI</span></td>
+    <td class="tg-45hq">1.4712 ± 3.4911</td>
   </tr>
   <tr>
-    <td class="tg-0lax">B2020+28</td>
-    <td class="tg-0lax">22.7027 ± 2.1802</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">23.3594 ± 0.4248</td>
+    <td class="tg-0pky">B2020+28</td>
+    <td class="tg-0pky">22.7027 ± 2.1802</td>
+    <td class="tg-0pky">20.061 ± 3.532</td>
+    <td class="tg-0pky">23.3594 ± 0.4248</td>
   </tr>
   <tr>
-    <td class="tg-0lax">B2111+46</td>
-    <td class="tg-0lax">98.6486 ± 3.4034</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax">98.3332 ± 21.4281</td>
+    <td class="tg-0pky">B2111+46</td>
+    <td class="tg-0pky">98.6486 ± 3.4034</td>
+    <td class="tg-0pky">too noisy</td>
+    <td class="tg-0pky">98.3332 ± 21.4281</td>
+  </tr>
+</table>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-6m3n{background-color:#c4ecc4;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-opee{font-weight:bold;background-color:#ffffc7;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-mfhl{background-color:#ffffc7;border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-opee" rowspan="2">Pulsar Names</th>
+    <th class="tg-mfhl" colspan="2"><span style="font-weight:bold">Distance (kpc)</span></th>
+  </tr>
+  <tr>
+    <td class="tg-6m3n"><span style="font-weight:700">Cordes-Lazio </span><span style="font-weight:bold">NE2001</span><br><span style="font-weight:bold">(electron density model)</span></td>
+    <td class="tg-6m3n"><span style="font-weight:bold">YMW16</span><br><span style="font-weight:700">(electron density model)</span><br></td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">B0329+54</td>
+    <td class="tg-0pky">1.088 ± 0.147</td>
+    <td class="tg-0pky">1.162 ± 0.116</td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">B0531+21(i)</td>
+    <td class="tg-0pky">1.709 ± 0.298</td>
+    <td class="tg-0pky">1.282 ± 0.128</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B0531+21(ii)</td>
+    <td class="tg-0pky">1.714 ± <span style="font-weight:lighter">0.299</span><br></td>
+    <td class="tg-0pky">1.286 ± 0.127</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B0531+21(iii)</td>
+    <td class="tg-0pky">1.715 ± 0.298</td>
+    <td class="tg-0pky">1.287 ± 0.129</td>
+  </tr>
+  <tr>
+    <td class="tg-xldj">B1642-03</td>
+    <td class="tg-0pky">1.057 ± 0.198</td>
+    <td class="tg-0pky">0.973 ± 0. 098</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B1933+16</td>
+    <td class="tg-0pky">5.484 ± 0.803</td>
+    <td class="tg-0pky">4.231 ± 0.423</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B2020+28</td>
+    <td class="tg-0pky">2.004 ± 0.389</td>
+    <td class="tg-0pky">1.617 ± 0.162</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">B2111+46</td>
+    <td class="tg-0pky">3.890 ± 0.458</td>
+    <td class="tg-0pky">3.646 ± 0.365</td>
   </tr>
 </table>

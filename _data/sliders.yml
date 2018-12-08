@@ -119,6 +119,20 @@
   images:
     - src: /materials/ResultPictures1/DensityPlots/B0329+54_w1.png
       alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/DensityPlots/B0531+21_w2.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/DensityPlots/B0531+21_w3.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/DensityPlots/B0531+21_w4.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/DensityPlots/B1642-03_w3.png
+      alt: B1642-03 Pulsar
+    - src: /materials/ResultPictures1/DensityPlots/B1933+16_w2.png
+      alt: B1933+16 Pulsar
+    - src: /materials/ResultPictures1/DensityPlots/B2020+28_w2.png
+      alt: B2020+28 Pulsar
+    - src: /materials/ResultPictures1/DensityPlots/B2111+46_w4.png
+      alt: B2111+46 Pulsar               
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -129,6 +143,20 @@
   images:
     - src: /materials/ResultPictures1/IntegratedProfiles/B0329+54_w1.png
       alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/IntegratedProfiles/B0531+21_w2.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/IntegratedProfiles/B0531+21_w3.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/IntegratedProfiles/B0531+21_w4.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/IntegratedProfiles/B1642-03_w3.png
+      alt: B1642-03 Pulsar
+    - src: /materials/ResultPictures1/IntegratedProfiles/B1933+16_w2.png
+      alt: B1933+16 Pulsar
+    - src: /materials/ResultPictures1/IntegratedProfiles/B2020+28_w2.png
+      alt: B2020+28 Pulsar
+    - src: /materials/ResultPictures1/IntegratedProfiles/B2111+46_w4.png
+      alt: B2111+46 Pulsar          
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -139,6 +167,20 @@
   images:
     - src: /materials/ResultPictures1/DMCurves/B0329+54_w1.jpg
       alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/DMCurves/B0531+21_w2.jpg
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/DMCurves/B0531+21_w3.jpg
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/DMCurves/B0531+21_w4.jpg
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/DMCurves/B1642-03_w3.jpg
+      alt: B1642-03 Pulsar
+    - src: /materials/ResultPictures1/DMCurves/B1933+16_w2.jpg
+      alt: B1933+16 Pulsar
+    - src: /materials/ResultPictures1/DMCurves/B2020+28_w2.jpg
+      alt: B2020+28 Pulsar
+    - src: /materials/ResultPictures1/DMCurves/B2111+46_W4.jpg
+      alt: B2111+46 Pulsar                                          
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -150,6 +192,20 @@
   images:
     - src: /materials/ResultPictures1/RowGrids/B0329+54_w1.png
       alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/RowGrids/B0531+21_w2.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/RowGrids/B0531+21_w3.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/RowGrids/B0531+21_w4.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/RowGrids/B1642-03_w3.png
+      alt: B1642-03 Pulsar
+    - src: /materials/ResultPictures1/RowGrids/B1933+16_w2.png
+      alt: B1933+16 Pulsar
+    - src: /materials/ResultPictures1/RowGrids/B2020+28_w2.png
+      alt: B2020+28 Pulsar
+    - src: /materials/ResultPictures1/RowGrids/B2111+46_w4.png
+      alt: B2111+46 Pulsar                     
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -160,16 +216,39 @@
   images:
     - src: /materials/ResultPictures1/SpectrumFits/B0329+54_w1.png
       alt: B0329+54 Pulsar
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/SpectrumFits/B0531+21_w3.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/SpectrumFits/B0531+21_w4.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/SpectrumFits/B1642-03_w3.png
+      alt: B1642-03 Pulsar
+    - src: /materials/ResultPictures1/SpectrumFits/B1933+16_w2.png
+      alt: B1933+16 Pulsar
+    - src: /materials/ResultPictures1/SpectrumFits/B2020+28_w2.png
+      alt: B2020+28 Pulsar     
   settings:
     height: "'auto'"
     effect: "'fade'"
 
-- selector: SpectrumFits
+- selector: MonteCarlo
   bullets: true
   captions: true
   images:
-    - src: /materials/ResultPictures1/SpectrumFits/B0329+54_w1.png
+    - src: /materials/ResultPictures1/monteCarlo/B0329+54_w1.png
       alt: B0329+54 Pulsar
+    - src: /materials/ResultPictures1/monteCarlo/B0531+21_w3.png
+      alt: B0531+21 Pulsar
+    - src: /materials/ResultPictures1/monteCarlo/B1642-03_w3.png
+      alt: B1642-03 Pulsar
+    - src: /materials/ResultPictures1/monteCarlo/B1929+10_w4.png
+      alt: B1929+10 Pulsar      
+    - src: /materials/ResultPictures1/monteCarlo/B1933+16_w2.png
+      alt: B1933+16 Pulsar  
+    - src: /materials/ResultPictures1/monteCarlo/B2020+28_w2.png
+      alt: B2020+28 Pulsar
+    - src: /materials/ResultPictures1/monteCarlo/B2111+46_w4.png
+      alt: B2111+46 Pulsar (Noisy)                
   settings:
     height: "'auto'"
     effect: "'fade'"
