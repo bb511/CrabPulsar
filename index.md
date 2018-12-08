@@ -15,18 +15,17 @@ image_sliders:
 
  Details of each part of the experiment is given in the respective tabs at the top of the page. The theory given in the following sections given an overview of the physics and fundamental concepts required to perform the experiment.
 
-## 1.2 Pulsars and their properties
+## 1.2 Pulsars
 
 Jocelyn Bell and Anthony Hewish first reported the discovery of Pulsars in [this](https://www.jstor.org/stable/24927533?seq=1#metadata_info_tab_contents) paper published in _Nature_ in October 1968. Depending on the mass of the star, at the end of its evolution, the star could collapse into a white dwarf, neutron star, or a black-hole. Neutron stars were theorized in the 1950's, however, they were poorly understood before the discovery by Hewish and Bell. Today, cutting edge techniques have allowed scientists to go from a sample of one to 200,000 pulsars. A pulsar is a neutron star whose beam sweeps across the observer at well-defined periods. They are extremely stable and yeild many important results. Some of the properties of pulsars have been discussed in the [Pulsar Timing](CrabTiming.md#41-introduction) section.
 
 Pulsar nomenclature follow a standard procedure. <span style="color: red">PSR</span> stands for **P**ulsating **S**ource of **R**adio and numbers correspond to the pulsar position in Right Ascension and declination. The alphabet B  after PSR refers to the 1950.0 epoch. However, pulsars with J correspond to the 2000.0 epoch. Additionally, the pulsars with J have their declination in minutes. 
 
-## 1.3.1 Data collection and search techniques
+## 1.3 Data collection and search techniques
 
 The 13m (42ft) parabolic radio telescope is used to obtain data. Unwanted power or "spillover" is collected from the edges of the dish. An incoming signal, induces an electromagnetic signal in the feed which is converted into useful data after signal processing. The data is recorded with a bandwidth of 10 MHz centred at the frequency of 610 MHz. A section of the incoming signal received, passes the filter and is Fourier transformed. The decomposition is stored in multiple frequency channels. The power in each channel is computed at intervals of 51 $\mu$s. This defines the sampling rate of the incoming data.
 
-<span style="color: green"><b>Scattering effects</b></span> are less dominant at higher frequencies. The electron density distribution in the interstellar medium obscures the amount of dispersion. It is favorable to set observations at high frequency to lower scattering effects and to detect weak and distant pulsars. The sensitivity of the telescope increases as the square root of the <span style="color: green"><b>integration time</b></span>.
-
+The choice of the optimal frequency and bandwidth are crucial for pulsar searches. <span style="color: green"><b>Scattering effects</b></span> are less dominant at higher frequencies. The electron density distribution in the interstellar medium obscures the amount of dispersion. It is favorable to set observations at high frequency to lower scattering effects and to detect weak and distant pulsars. The sensitivity of the telescope increases as the square root of the <span style="color: green"><b>integration time</b></span> which has been discussed in detail in [section 1.4](#14-pulsar-observations-and-visibility-calculations).
 
 ## 1.4 Pulsars observations and visibility calculations
 
@@ -54,7 +53,7 @@ where $T_{rec} \approx\ 100\ K$ is the receiver noise temperature, $T_{spill} \a
 	\Delta T_{sys} = \frac{T_{sys}}{\sqrt{n_pt\Delta f}}
 \end{equation}
 
-where $\Delta f$ is the observing bandwidth, $t$ is the integration time and $n_p=2$ for orthogonal polarisations being summed.
+where $\Delta f$ is the observing bandwidth, $t$ is the integration time and $n_p=2$ for orthogonal polarisations being summed [[3](About.md#2)].
 
 The 'system-equivalent flux density (SFED)' is a measure of the sensitivity of a source with temperature equal to $\Delta T_{sys}$, i.e. SFED $= S_{sys} = T_{sys}/(\sqrt{n_pt\Delta f}G)$. Therefore, lower SFED indicate more sensitive systems which are able to detect faint and distant pulsars. Therefore, the minimum $t$ required to detect a source of $1\ Jy$ i.e. signal-to-noise ratio of 1, was calculated to using the formula,
 \begin{equation}
@@ -62,6 +61,7 @@ The 'system-equivalent flux density (SFED)' is a measure of the sensitivity of a
 \end{equation}
 
 Additionally, the repeating signal of a pulsar contributed to increase the signal-to-noise by a factor of $\sqrt{\frac{P-W}{P}}$. The integration times and the corresponding signal-to-noise ratios for all the observed pulsars are given in [Table 1.1](#table-11).
+
 <a name="table-11"></a>
 
 <style type="text/css">
@@ -90,14 +90,14 @@ Additionally, the repeating signal of a pulsar contributed to increase the signa
   <tr>
     <th class="tg-cjtp"><span style="font-weight:bold">Week Number</span></th>
     <th class="tg-fgdu">Pulsar Names</th>
-    <th class="tg-5w3z"><span style="font-weight:bold">Integration Time (s)</span><br><span style="font-weight:bold">(seconds)</span><br></th>
+    <th class="tg-5w3z"><span style="font-weight:bold">Integration Time</span><br><span style="font-weight:bold">(seconds)</span><br></th>
     <th class="tg-cjtp"><span style="font-weight:bold">Signal to Noise ratio</span></th>
   </tr>
   <tr>
     <td class="tg-c3ow"><span style="font-weight:bold">1 </span></td>
     <td class="tg-qjc1">B0329+54</td>
     <td class="tg-bab8">2149</td>
-    <td class="tg-bab8"></td>
+    <td class="tg-bab8">85</td>
   </tr>
   <tr>
     <td class="tg-7btt" rowspan="4"><br><br><br>2<br><br></td>
