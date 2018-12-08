@@ -252,3 +252,40 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
+
+
+# ------------------------------------------------------------------------------
+#                       Visibility slider
+#-------------------------------------------------------------------------------
+
+- selector: Visibility
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/VisibilityTables/7thNovember.jpg
+      alt: 7th November
+    - src: /materials/VisibilityTables/9thNovember.jpg
+      alt: 9th November
+    - src: /materials/VisibilityTables/11thNovember.jpg
+      alt: 11th November
+    - src: /materials/VisibilityTables/13thNovember.jpg
+      alt: 13th November
+    - src: /materials/VisibilityTables/15thNovember.jpg
+      alt: 15th November
+    - src: /materials/VisibilityTables/17thNovember.jpg
+      alt: 17th November
+    - src: /materials/VisibilityTables/19thNovember.jpg
+      alt: 19th November
+    - src: /materials/VisibilityTables/21thNovember.jpg
+      alt: 21th November
+    - src: /materials/VisibilityTables/23thNovember.jpg
+      alt: 23th November
+    - src: /materials/VisibilityTables/25thNovember.jpg
+      alt: 25th November
+    - src: /materials/VisibilityTables/27thNovember.jpg
+      alt: 27th November
+    - src: /materials/VisibilityTables/29thNovember.jpg
+      alt: 29th November       
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
