@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      5770,        156]
-NotebookOptionsPosition[      5287,        133]
-NotebookOutlinePosition[      5623,        148]
-CellTagsIndexPosition[      5580,        145]
+NotebookDataLength[      6407,        173]
+NotebookOptionsPosition[      5924,        150]
+NotebookOutlinePosition[      6260,        165]
+CellTagsIndexPosition[      6217,        162]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -27,14 +27,25 @@ Cell[BoxData[
  RowBox[{
   RowBox[{"(*", "Preliminaries", "*)"}], "\[IndentingNewLine]", 
   RowBox[{
-   RowBox[{"SetDirectory", "[", 
-    RowBox[{"FileNameJoin", "[", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<Data\>\"", " ", ",",
-        " ", "\"\<Histograms\>\""}], "}"}], "]"}], "]"}], ";"}]}]], "Input",
+   RowBox[{
+    RowBox[{"SetDirectory", "[", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"NotebookDirectory", "[", "]"}], ",", "\"\<Data\>\"", " ", 
+        ",", " ", "\"\<Histograms\>\""}], "}"}], "]"}], "]"}], ";"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"animationsDir", " ", "=", " ", 
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+        "\"\<ResultPictures1\>\"", ",", " ", "\"\<Animations\>\""}], "}"}], 
+      "]"}]}], ";"}]}]}]], "Input",
  CellChangeTimes->{{3.752867405285795*^9, 3.752867432415255*^9}, {
-  3.7528674996840563`*^9, 3.752867550963524*^9}}],
+  3.7528674996840563`*^9, 3.752867550963524*^9}, {3.753284193880093*^9, 
+  3.7532842684201403`*^9}}],
 
 Cell[CellGroupData[{
 
@@ -44,7 +55,7 @@ Cell["B0329+54_w1", "Chapter",
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"\[IndentingNewLine]", 
+ RowBox[{
   RowBox[{"(*", 
    RowBox[{"Import", " ", "the", " ", "data"}], "*)"}], "\[IndentingNewLine]", 
   RowBox[{
@@ -94,7 +105,11 @@ Cell[BoxData[
         RowBox[{"Length", "@", "data"}], ",", "2"}], "}"}]}], "]"}], ";"}], 
    "\[IndentingNewLine]", 
    RowBox[{"Export", "[", 
-    RowBox[{"\"\<B0329+54_w1.gif\>\"", ",", "%", ",", " ", 
+    RowBox[{
+     RowBox[{"FileNameJoin", "[", 
+      RowBox[{"{", 
+       RowBox[{"animationsDir", " ", ",", "\"\<B0329+54_w1.gif\>\""}], "}"}], 
+      "]"}], ",", "%", ",", " ", 
      RowBox[{"\"\<AnimationRepetitions\>\"", "\[Rule]", "\[Infinity]"}]}], 
     "]"}]}]}]], "Input",
  CellChangeTimes->{{3.752867572097911*^9, 3.7528676391287813`*^9}, {
@@ -117,22 +132,24 @@ Cell[BoxData[
    3.7528706698431787`*^9, 3.752870687541535*^9}, {3.7528707962723293`*^9, 
    3.752870837591631*^9}, {3.752870897277154*^9, 3.7528709027692223`*^9}, {
    3.752870997177936*^9, 3.752871008003587*^9}, {3.7528712944088507`*^9, 
-   3.7528713132879143`*^9}}],
+   3.7528713132879143`*^9}, {3.753284271217936*^9, 3.753284298112749*^9}, 
+   3.753284790094843*^9}],
 
-Cell[BoxData["\<\"B0329+54_w1.gif\"\>"], "Output",
+Cell[BoxData["\<\"/home/patrick/CrabPulsar/materials/ResultPictures1/\
+Animations/B0329+54_w1.gif\"\>"], "Output",
  CellChangeTimes->{{3.752869649590733*^9, 3.752869696960115*^9}, 
    3.752869790313821*^9, {3.752869829360038*^9, 3.752869891108*^9}, {
    3.752870119088346*^9, 3.7528701725976133`*^9}, {3.752870206212226*^9, 
    3.752870234342189*^9}, 3.7528702659686127`*^9, {3.752870310231653*^9, 
    3.7528703613317547`*^9}, 3.752870570459165*^9, {3.7528706716826973`*^9, 
    3.752870688410719*^9}, 3.752870840196053*^9, 3.752871015067799*^9, 
-   3.7528712079378757`*^9, 3.752871468445492*^9}]
+   3.7528712079378757`*^9, 3.752871468445492*^9, 3.753284948845483*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1157, 911},
-WindowMargins->{{Automatic, 270}, {Automatic, 80}},
+WindowSize->{1157, 906},
+WindowMargins->{{116, Automatic}, {Automatic, 94}},
 FrontEndVersion->"11.0 for Linux x86 (64-bit) (July 28, 2016)",
 StyleDefinitions->"Default.nb"
 ]
@@ -149,12 +166,12 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 92, 1, 93, "Title"],
-Cell[675, 25, 473, 11, 57, "Input"],
+Cell[675, 25, 854, 22, 82, "Input"],
 Cell[CellGroupData[{
-Cell[1173, 40, 74, 1, 66, "Chapter"],
+Cell[1554, 51, 74, 1, 66, "Chapter"],
 Cell[CellGroupData[{
-Cell[1272, 45, 3441, 74, 166, "Input"],
-Cell[4716, 121, 531, 7, 32, "Output"]
+Cell[1653, 56, 3611, 79, 148, "Input"],
+Cell[5267, 137, 617, 8, 32, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
