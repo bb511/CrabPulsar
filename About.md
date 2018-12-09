@@ -24,3 +24,5 @@ content goes here.
 [[6]](#6) Cordes, J. M. & Lazio, T. J. W. 2003, "NE2001. II. Using Radio Propagation Data to Construct a Model for the Galactic Distribution of Free Electrons";
 
 [[7]](#7) Yao, J.M., Manchester, R.N. and Wang, N., 2017. A new electron-density model for estimation of pulsar and FRB distances. The Astrophysical Journal, 835(1), p.29.
+
+[[8](#8)] ATNF Pulsar Catalogue, version 1.59, html link: www.atnf.csiro.au/research/pulsar/psrcat/.
