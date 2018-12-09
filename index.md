@@ -10,7 +10,7 @@ image_sliders:
 
  The experiment provides an introduction to pulsar astronomy and investigates pulsar properties using computer programming in python, MATLAB and mathematica. All data for the experiment was obtained from the 42-ft radio telescope at Jodrell Bank Observatioy, Cheshire. Some parts of the experiment also used the data from the 76-m Lovell telescope. The experiment is divided in three parts:
  1. Calculation of the **'dispersion measure'** and the **distance** to 8 different pulsars using the 42-ft radio telescope using three different methods.
- 2. Using **Fourier analysis techniques** to calculate the _period_ and _width_ of the pulse profile of 6 unknown pulsars using existing data from the 76-m Lovell telescope. 
+ 2. Using **Fourier analysis techniques** to calculate the _period_ and _width_ of the pulse profile of 6 unknown pulsars using existing data from the 76-m Lovell telescope.
  3. **Timing** the Crab pulsar to obtain an accurate period mesurements. The analysis involved correction of the arrival times to the barycenter and provided a measurement for the period derivate, age and magnetic field of the pulsar. The same analysis was also applied on 6 other pulsars observed using the 42-ft telescope.
 
  Details of each part of the experiment is given in the respective tabs at the top of the page. The theory given in the following sections given an overview of the physics and fundamental concepts required to perform the experiment.
@@ -19,7 +19,7 @@ image_sliders:
 
 Jocelyn Bell and Anthony Hewish first reported the discovery of Pulsars in [this](https://www.jstor.org/stable/24927533?seq=1#metadata_info_tab_contents) paper published in _Nature_ in October 1968. Depending on the mass of the star, at the end of its evolution, the star could collapse into a white dwarf, neutron star, or a black-hole. Neutron stars were theorized in the 1950's, however, they were poorly understood before the discovery by Hewish and Bell. Today, cutting edge techniques have allowed scientists to go from a sample of one to 200,000 pulsars. A pulsar is a neutron star whose beam sweeps across the observer at well-defined periods. They are extremely stable and yeild many important results. Some of the properties of pulsars have been discussed in the [Pulsar Timing](CrabTiming.md#41-introduction) section.
 
-Pulsar nomenclature follow a standard procedure. <span style="color: red">PSR</span> stands for **P**ulsating **S**ource of **R**adio and numbers correspond to the pulsar position in Right Ascension and declination. The alphabet B  after PSR refers to the 1950.0 epoch. However, pulsars with J correspond to the 2000.0 epoch. Additionally, the pulsars with J have their declination in minutes. 
+Pulsar nomenclature follow a standard procedure. <span style="color: red">PSR</span> stands for **P**ulsating **S**ource of **R**adio and numbers correspond to the pulsar position in Right Ascension and declination. The alphabet B  after PSR refers to the 1950.0 epoch. However, pulsars with J correspond to the 2000.0 epoch. Additionally, the pulsars with J have their declination in minutes.
 
 ## 1.3 Data collection and search techniques
 
@@ -31,20 +31,20 @@ The choice of the optimal frequency and bandwidth are crucial for pulsar searche
 
 ### <u>1.4.1 Integration time</u>
 
-The experiemnt lasted for 4 weeks (November-2018) and 10 pulsars were observed during this period using the 43-ft telescope at Jodrell Bank Observatory, as detailed in [Table 1.1](#table-11). Random motions of electrons in the receiver ciircuits produce a power $P_{circuit}$, which is given by the Nyquist's theorem as, $P_{circuit} = k_B T$, where $T$ corresponds to the noise temperature. 
+The experiemnt lasted for 4 weeks (November-2018) and 10 pulsars were observed during this period using the 43-ft telescope at Jodrell Bank Observatory, as detailed in [Table 1.1](#table-11). Random motions of electrons in the receiver ciircuits produce a power $P_{circuit}$, which is given by the Nyquist's theorem as, $P_{circuit} = k_B T$, where $T$ corresponds to the noise temperature.
 If the <i>antenna temperature</i> $T_A = T$, the flux from the source $S$ follows,
 \begin{equation}
 	S = \frac{2k_B T_A}{A_e} = \frac{T_A}{G}
 \end{equation}
 where $A_e = \eta A$ is the effective collecting area of the telescope, $\eta$ is the efficiency $\approx55\%$, $A$ is the total collecting area and $G = A_e/(2k_B)$ is the $gain$. For the 42-ft telescope $G$ was calculated to be,
 \begin{equation}
-	\boxed{G = 0.0256\ K/Jy} 
+	\boxed{G = 0.0256\ K/Jy}
 \end{equation}
-where $1\ Jy = 10^{-26} W m^{-2} Hz^{-1}$. 
+where $1\ Jy = 10^{-26} W m^{-2} Hz^{-1}$.
 
 The source flux $S=S_{source}$ can be defined in terms of an equivalent <i>source temperature</i> as $T_{source} = G S_{source}$. Due to $G$ limitations for the telescope, the strongest pulsars $\approx 50\ mJy$ show $T_{source}\lesssim\ 1\ K$. The observed signal has a <i>background system temperature</i> defined as,
 \begin{equation}
-	T_{system} = T_{rec} + T_{spill} + T_{sky} 
+	T_{system} = T_{rec} + T_{spill} + T_{sky}
 \end{equation}
 
 where $T_{rec} \approx\ 100\ K$ is the receiver noise temperature, $T_{spill} \approx 10\ K$ is the spillover temperature and $T_{sky} \approx 10\ K$ is the sky and atmospheric temperature. Thus $T_{source}$ has to compete with various background sources to be detected.  After calibrating the receiver, the most dominant effect competing with the pulsar signal is the root mean square fluctuations $\Delta T_{sys}$ which is given by the **radiometer equation** as,
@@ -163,6 +163,30 @@ Additionally, the repeating signal of a pulsar contributed to increase the signa
 
 ### <u>1.4.2 Visibility</u>
 
-<a name="slider-11"></a>
+The visibility of the pulsars was calculated by calculating their elevation from Jodrell Bank for every day of the experiment in the month of November. Grids with all the considered pulsar visibilities are presented in [Slider 1.4.2](#slider-142). A link to download all the grids and zoom in on individual pulsars can be found in the [Downloads](Downloads.md) section.
+
+<a name="slider-142"></a>
 
 {% include slider.html selector="Visibility" %}
+
+&nbsp;
+
+#### [Slider 1.4.2](#slider-142) Grids with the visibility of each potential pulsar that would be observable with the 42-ft telescope. The time in the day is plotted on the x-axis while the elevation of the pulsar is plotted on the y-axis. The pulsar should be observed when its elevation is between the two black dashed lines. Observations might be noisy if the pulsar is between the black dashed line and the red dashed line. When the elevation is below the red line, the pulsar is unobservable. A grid was generated for every day from the start of the second week of experiment to the end of the experiment.
+
+In the rest of this section we will go through all the calculations that were performed to obtained the elevation of a certain pulsar from Jodrell Bank, located at a $\mathrm{lat} = 53.2369^∘$ and $\mathrm{lon} = -2.3075^∘$.
+First, one needs to calculate the Sidereal Time (ST). The conversion between Universal Time and ST at a particular location on Earth is obtained throught the formula
+\begin{equation}
+ST = [100.46 + 0.985647 \times (JD - 51546) + lon + 15\times \mathrm{UT}] \mod 360
+\end{equation}
+
+Where $\mathrm{JD}$ is the Reduced Julian Date,  relative to noon on November 16 1858, $lon$ is the longitude of the location and $\mathrm{UT}$ is the universal time.
+From this, the hour angle of a certain celestial object can be calculated through the expression
+\begin{equation}
+HA = [ST - RA] \mod 360
+\end{equation}
+where $RA$ is the right angle of the object, or in this case pulsar.
+Finally the altitude of a pulsar at a certain $HA$, from Jodrell Bank, was calculated using
+\begin{equation}
+ALT = \mathrm{arcsin} \big [ \mathrm{sin}(lat)\mathrm{sin}(dec) + \mathrm{cos}(lat)\mathrm{cos}(dec)\mathrm{cos}(HA)\big ]
+\end{equation}
+where $lat$ is the latitude of the pulsar and $dec$ is its declination.
