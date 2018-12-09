@@ -53,7 +53,7 @@ where $T_{rec} \approx\ 100\ K$ is the receiver noise temperature, $T_{spill} \a
 	\Delta T_{sys} = \frac{T_{sys}}{\sqrt{n_pt\Delta f}}
 \end{equation}
 
-where $\Delta f$ is the observing bandwidth, $t$ is the integration time and $n_p=2$ for orthogonal polarisations being summed [[2, 3](About.md#2)].
+where $\Delta f$ is the observing bandwidth, $t$ is the integration time and $n_p=2$ for orthogonal polarisations being summed [[2, 3](About.md#52-references)].
 
 The 'system-equivalent flux density (SFED)' is a measure of the sensitivity of a source with temperature equal to $\Delta T_{sys}$, i.e. SFED $= S_{sys} = T_{sys}/(\sqrt{n_pt\Delta f}G)$. Therefore, lower SFED indicate more sensitive systems which are able to detect faint and distant pulsars. Therefore, the minimum $t$ required to detect a source of $1\ Jy$ i.e. signal-to-noise ratio of 1, was calculated to using the formula,
 \begin{equation}

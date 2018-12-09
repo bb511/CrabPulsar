@@ -18,7 +18,7 @@ Unknown 'periodic pulse' searches having been crucial for pulsar surveys after t
 2. <span style="color: #400080"><b>Fourier Analysis</b></span>:
 This method involves looking at the Fourier transform of the time series spectrum.
 
-Periodogram analysis requires high sensitivity to detect broad pulses with broad widths $w$, compared to narrow pulses showing high signal to noise ratio. The increase in the signal to noise ratio is given by a factor of $(P/2w)^{1/2}$. For this experiment, the Fourier analysis technique is chosen as it is computationally more economical than the periodogram analysis [[2](About.md#2)].
+Periodogram analysis requires high sensitivity to detect broad pulses with broad widths $w$, compared to narrow pulses showing high signal to noise ratio. The increase in the signal to noise ratio is given by a factor of $(P/2w)^{1/2}$. For this experiment, the Fourier analysis technique is chosen as it is computationally more economical than the periodogram analysis [[2](About.md#52-references)].
 
 ## 3.2 Theory
 
@@ -69,7 +69,7 @@ where $i = \sqrt{-1}$. Each $\mathcal{F}(k)$ encodes the amplitude and phase of 
 	\mathcal{P}(k) = |\mathcal{F}(k)| = \sqrt{Re(\mathcal{F}(k))^2 + Im(\mathcal{F}(k))^2}
 \end{equation}
 
-where $\mathcal{P}(k)$ is defined as the power. [Slider 3.2](#slider-32) shows the Fourier transformed power spectrum of the time series elements for the 6 unknown pulsars which were plotted and shown in [Slider 3.1](#slider-31). The width of each frequency bin is given as $1/\tau$ where $\tau$ is the total length of the observattion. It must be noted that $\tau = N t_{samp}$ where $t_{samp}$ is the sampling time. A periodic signal which is buried in noise in the time domain peaks with clarity in the frequency domain and becomes detectable [[3](About.md#3)].
+where $\mathcal{P}(k)$ is defined as the power. [Slider 3.2](#slider-32) shows the Fourier transformed power spectrum of the time series elements for the 6 unknown pulsars which were plotted and shown in [Slider 3.1](#slider-31). The width of each frequency bin is given as $1/\tau$ where $\tau$ is the total length of the observattion. It must be noted that $\tau = N t_{samp}$ where $t_{samp}$ is the sampling time. A periodic signal which is buried in noise in the time domain peaks with clarity in the frequency domain and becomes detectable [[3](About.md#52-references)].
 
 <a name="slider-32"></a>
 
@@ -124,7 +124,7 @@ $1/p = f_{peak(i+1)} - f_{peak(i)}$, where $f_{peak(i)}$ is the peak frequncy of
 
 ## 3.7 Results
 
-The final results have been quoted in [Table 3.1](#table-31). The corresponding pulsar names for the calculated periods were found from the 'Catalog of 558 Pulsars' published by J.H. Taylor, R. N. Manchester and A. G. Lyne [[4](About.md#4)].
+The final results have been quoted in [Table 3.1](#table-31). The corresponding pulsar names for the calculated periods were found from the 'Catalog of 558 Pulsars' published by J.H. Taylor, R. N. Manchester and A. G. Lyne [[4](About.md#52-references)].
 
 
 <a name="table-31"></a>

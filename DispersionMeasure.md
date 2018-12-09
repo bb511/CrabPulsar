@@ -14,9 +14,9 @@ image_sliders:
 
 ## 2.1 Introduction
 
-Pulsars are relatively weak radio sources due to their small size. They usually emit their largest intensity at low radio frequencies around 400 MHz. However, at such frequencies, the pulses suffer from propagation effects when they travel through the interstellar medium [[4](About.md#3)].
+Pulsars are relatively weak radio sources due to their small size. They usually emit their largest intensity at low radio frequencies around 400 MHz. However, at such frequencies, the pulses suffer from propagation effects when they travel through the interstellar medium [[4](About.md#52-references)].
 
-The phenomenon is quantified in a term called the Dispersion Measure (DM). The DM is important in pulsar astronomy since it is one of the most fundamental properties such a celestial body [[5](About.md#5)]. Furthermore, once measured, the dispersion measure of a pulsar can be used to approximate the distance to that pulsar [[6,7](About.md#6)].
+The phenomenon is quantified in a term called the Dispersion Measure (DM). The DM is important in pulsar astronomy since it is one of the most fundamental properties such a celestial body [[5](About.md#52-references)]. Furthermore, once measured, the dispersion measure of a pulsar can be used to approximate the distance to that pulsar [[6,7](About.md#52-references)].
 
 ## 2.2 Theory
 
@@ -37,9 +37,9 @@ Thus, it can be seen that the speed at which an electromagnetic wave propagates 
 
 ![Theory1](/materials/ResultPictures1/theory1.png)
 
-#### [Figure 2.1](#figure-21): Signal measured from a pulsar [[3](About.md#3)]. The top parts show the power measured per channel as a function of time, showing clear frequency-dependent arrival times, or dispersion. The bottom shows the dispersion-corrected pulse (sharp pulse).
+#### [Figure 2.1](#figure-21): Signal measured from a pulsar [[3](About.md#52-references)]. The top parts show the power measured per channel as a function of time, showing clear frequency-dependent arrival times, or dispersion. The bottom shows the dispersion-corrected pulse (sharp pulse).
 
-In this view, the dispersion measure is simply a constant of proportionality relating the frequency of the light to the extra amount of time (relative to vacuum) required to reach the observer due to dispersion. It depends on two quantities: the (electron) number density $n_e$ and the path length through the medium $d$ [[1](About.md#1)]. For example, a large DM value would tell us that the source is either relatively nearby but is traveling through a dense plasma, or it is far away, and traveling through a relatively less dense plasma. A visual representation of this process is shown in [Figure 2.1](#figure-21).
+In this view, the dispersion measure is simply a constant of proportionality relating the frequency of the light to the extra amount of time (relative to vacuum) required to reach the observer due to dispersion. It depends on two quantities: the (electron) number density $n_e$ and the path length through the medium $d$ [[1](About.md#52-references)]. For example, a large DM value would tell us that the source is either relatively nearby but is traveling through a dense plasma, or it is far away, and traveling through a relatively less dense plasma. A visual representation of this process is shown in [Figure 2.1](#figure-21).
 
 
 ## 2.3 Initial estimation of $DM$ using optimisation algorithm
@@ -234,9 +234,9 @@ The results of the dispersion measure obtained using the three methods are state
 
 The distance to the pulsar was estimated with the obtained values of $DM$ from [Table 1.1](#table-11). As stated in [Eqn. 1](#eq-1), an electron density model needs to be assumed in order to calculate the distance. Generally, the mean Galactic electron density $n_e$ is the assumed to be $0.03\ cm^{-1}$. However, a more through approach was adopted for calculating the distance to pulsars using the two models detailed below:
 
-1. First, the <span style="color: green">NE2001 model developed by Corder-Lazio</span> [[6](About.md#6)] was applied. The model develops on the understanding of the ISM based on various measurements in the radio and x-ray band. By using 112 independedntly measured pulsar distances and scattering measures (SMs), the model successfully predicts large scale fluctuations (which cause scattering) and the smooth $n_e$ distribution. It also adds clumps and voids towards the pulsar based on the measured $DM$ values.
+1. First, the <span style="color: green">NE2001 model developed by Corder-Lazio</span> [[6](About.md#52-references)] was applied. The model develops on the understanding of the ISM based on various measurements in the radio and x-ray band. By using 112 independedntly measured pulsar distances and scattering measures (SMs), the model successfully predicts large scale fluctuations (which cause scattering) and the smooth $n_e$ distribution. It also adds clumps and voids towards the pulsar based on the measured $DM$ values.
 
-2. The <span style="color: green">YMW16 model developed by Yao, Manchester and Wang</span> [[7](About.md#6)] was also attempted. The model is built on the NE2001, however, has some differences. For example, the four-armed spiral pattern of the Galaxy is considered. It also considers many local features in the galaxy like the Local Bubble (LB), enhances regions of $n_e$ at the edges of the LB, etc. It additionally, discards prior SMs measurements and does not assume any clump or void formations based on $DM$ values.
+2. The <span style="color: green">YMW16 model developed by Yao, Manchester and Wang</span> [[7](About.md#52-references)] was also attempted. The model is built on the NE2001, however, has some differences. For example, the four-armed spiral pattern of the Galaxy is considered. It also considers many local features in the galaxy like the Local Bubble (LB), enhances regions of $n_e$ at the edges of the LB, etc. It additionally, discards prior SMs measurements and does not assume any clump or void formations based on $DM$ values.
 
 [Table 2.2](#table-22) shows the final results obtained using the measured $DM$ values from the Monte-Carlo method and using the NE2001 and YMW16 models respectively.
 
@@ -303,6 +303,6 @@ The distance to the pulsar was estimated with the obtained values of $DM$ from [
 
 #### [Table 2.2](#table-22): The distance calculated for all observed pulsars using the NE2001 and YMW16 electron density models are stated. The uncertainties quoted are obtained from the accuracy of the models.
 
-The distances $d$ calculated using YMW16 for <span style="color: red">PSR B0329+54, B0531+21, B1933+16, B2020+28, and B2111+46</span> are <span style="color: green">consistent with accepted values</span> quoted in the ATNF Pulsar Catalogue [[8](About.md#8)].
+The distances $d$ calculated using YMW16 for <span style="color: red">PSR B0329+54, B0531+21, B1933+16, B2020+28, and B2111+46</span> are <span style="color: green">consistent with accepted values</span> quoted in the ATNF Pulsar Catalogue [[8](About.md#52-references)].
 
-However, $d$ to B1642-03 shows consistency with the accepted value ($DM = 35.76\ pc\ cm^{-3}$, $d = 1.3\ kpc$) only when the NE2001 model was used to calculate $d$, the value obtained using YMW16 is inconsistent with the accepted value [[8](About.md#8)].
+However, $d$ to B1642-03 shows consistency with the accepted value ($DM = 35.76\ pc\ cm^{-3}$, $d = 1.3\ kpc$) only when the NE2001 model was used to calculate $d$, the value obtained using YMW16 is inconsistent with the accepted value [[8](About.md#52-references)].

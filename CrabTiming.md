@@ -106,6 +106,16 @@ which is a good approximation for the actual age.
 ## 4.3 Interpolation of Barycenter Data
 
 A table with the barycenter position with respect to the Earth at midnight of every day in 2018 was available. Because our observations did not always take place at midnight, an interpolation of this table was required.
+The chosen method of interpolation was Lagrangian interpolation, using `scipy.interpolate.lagrangian`.
+The Lagrange interpolating polynomial is the polynomial $P(x)$ of degree $\leqslant (n-1)$ that passes through the n points and is given by
+\begin{equation}
+P(x)=\sum_{j=1}^n P_j (x),
+\end{equation}
+where
+\begin{equation}
+P_j(x) = y_j\prod_{k=1\\ k\neq j}^n \frac{x-x_k}{x_j-x_k}.
+\end{equation}
+It was found that a third order $n=3$ Lagrangian polynomial provided enough precision on the barycenter position for the barycenter delay calculations later on. The interpolation errors were calculated by using the formulas in Ref. [[9](About.md#52-references)]
 ## 4.4 Earth Delay
 
 ## 4.5 Barycenter Delay
