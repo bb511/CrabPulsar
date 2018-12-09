@@ -293,7 +293,7 @@ The distance to the pulsar was estimated with the obtained values of $DM$ from [
   </tr>
 </table>
 
-#### [Table 2.2](#table-22): The distance calculated for all observed pulsars using the NE2001 and YMW16 electron density models are stated. 
+#### [Table 2.2](#table-22): The distance calculated for all observed pulsars using the NE2001 and YMW16 electron density models are stated. The uncertainties quoted are obtained from the accuracy of the models.
 
 The distances $d$ calculated using YMW16 for <span style="color: red">PSR B0329+54, B0531+21, B1933+16, B2020+28, and B2111+46</span> are <span style="color: green">consistent with accepted values</span> quoted in the ATNF Pulsar Catalogue [[8](About.md#8)].
 
