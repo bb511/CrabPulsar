@@ -8,7 +8,7 @@ image_sliders:
 
 ## 1.1 Introduction to the experiment.
 
- The experiment provides an introduction to pulsar astronomy and investigates pulsar properties using computer programming in python, MATLAB and mathematica. All data for the experiment was obtained from the 42-ft radio telescope at Jodrell Bank Observatioy, Cheshire. Some parts of the experiment also used the data from the 76-m Lovell telescope. The experiment is divided in three parts:
+ The experiment provides an introduction to pulsar astronomy and investigates pulsar properties using computer programming in Python, MATLAB and Mathematica. All data for the experiment was obtained from the 42-ft radio telescope at Jodrell Bank Observatioy, Cheshire. Some parts of the experiment also used the data from the 76-m Lovell telescope. The experiment is divided in three parts:
  1. Calculation of the **'dispersion measure'** and the **distance** to 8 different pulsars using the 42-ft radio telescope using three different methods.
  2. Using **Fourier analysis techniques** to calculate the _period_ and _width_ of the pulse profile of 6 unknown pulsars using existing data from the 76-m Lovell telescope.
  3. **Timing** the Crab pulsar to obtain an accurate period mesurements. The analysis involved correction of the arrival times to the barycenter and provided a measurement for the period derivate, age and magnetic field of the pulsar. The same analysis was also applied on 6 other pulsars observed using the 42-ft telescope.

@@ -14,13 +14,13 @@ image_sliders:
 
 ## 2.1 Introduction
 
-Pulsars are relatively weak radio sources due to their small size. They usually emit their largest intensity at low radio frequencies around 400 MHz. However, at such frequencies, the pulses suffer from propagation effects when they travel through the interstellar medium to reach Earth [[4](About.md#3)].
+Pulsars are relatively weak radio sources due to their small size. They usually emit their largest intensity at low radio frequencies around 400 MHz. However, at such frequencies, the pulses suffer from propagation effects when they travel through the interstellar medium [[4](About.md#3)].
 
-The phenomenon is quantified in a term called the Dispersion Measure (DM). The DM is important in pulsar astronomy since it is one of the most fundamental property that characterizes a pulsar [[5](About.md#5)]. Furthermore, once measured, the dispersion measure of a pulsar can be used to approximate the distance to that pulsar [[6,7](About.md#6)].
+The phenomenon is quantified in a term called the Dispersion Measure (DM). The DM is important in pulsar astronomy since it is one of the most fundamental properties such a celestial body [[5](About.md#5)]. Furthermore, once measured, the dispersion measure of a pulsar can be used to approximate the distance to that pulsar [[6,7](About.md#6)].
 
 ## 2.2 Theory
 
-For an electromagnetic (EM) wave of frequency $\nu$ emitted at a discance $d$ from the observer and propagating through an electron plasma with uniform density $n_e$, the travel time of a pulse has the form
+For an electromagnetic (EM) wave of frequency $\nu$ emitted at a discance $d$ from the observer and propagating through an electron plasma with uniform density $n_e$, the travel time of a pulse is
 \begin{equation}
 t_p = \frac{d}{c} + \frac{e^2}{2\pi m_e c}\frac{\int_{0}^{d} n_e dl}{\nu^2}.
 \end{equation}
@@ -32,7 +32,6 @@ t_d = 4150 \times\frac{DM}{\nu^2} \hspace{0.5em}\mathrm{s}
 where $DM$ is the _disperion measure_  in $\mathrm{cm}^{-3}\mathrm{pc}$, or the integrated column density of free electrons along the line of sight [[1](About.md#1)].
 
 Thus, it can be seen that the speed at which an electromagnetic wave propagates through the medium depends on its frequency. A pulsar source emits an EM pulse composed of several different frequencies. The intervening interstellar medium causes lower frequencies to travel more slowly. Thus, if we are observing a pulsar signal, we will see the higher frequencies arrive at us first, followed by the lower frequencies [[2](About.md#2)]. The light is dispersed by the ISM.
-In this view, the dispersion measure is simply a constant of proportionality relating the frequency of the light to the extra amount of time (relative to vacuum) required to reach the observer due to dispersion. It depends on two quantities: the (electron) number density $n_e$ and the path length through the medium $d$ [[1](About.md#1)]. For example, a large DM value would tell us that the source is either relatively nearby but is traveling through a dense plasma, or it is far away, and traveling through a relatively less dense plasma. A visual representation of this process is shown in [Figure 2.1](#figure-21).
 
 <a name="figure-21"></a>
 
@@ -40,9 +39,18 @@ In this view, the dispersion measure is simply a constant of proportionality rel
 
 #### [Figure 2.1](#figure-21): Signal measured from a pulsar [[3](About.md#3)]. The top parts show the power measured per channel as a function of time, showing clear frequency-dependent arrival times, or dispersion. The bottom shows the dispersion-corrected pulse (sharp pulse).
 
+In this view, the dispersion measure is simply a constant of proportionality relating the frequency of the light to the extra amount of time (relative to vacuum) required to reach the observer due to dispersion. It depends on two quantities: the (electron) number density $n_e$ and the path length through the medium $d$ [[1](About.md#1)]. For example, a large DM value would tell us that the source is either relatively nearby but is traveling through a dense plasma, or it is far away, and traveling through a relatively less dense plasma. A visual representation of this process is shown in [Figure 2.1](#figure-21).
+
+
 ## 2.3 Initial estimation of $DM$ using optimisation algorithm
 
-<mark>Add stuff here.</mark>
+To get an idea of the range in which one should find the $DM$ of a certain pulsar, 2D histograms were plotted. The scipy.optimize.minimize algorithm was used to find the $DM$ at which the intensity of the integrated profiles in [Slider 2.2](#slider-22) peaked the highest. Five hundred initial values in the range of 0-200 were provided in each case, and the minimizer would always fall around the true value of the $DM$. An animation of this process is given in [Figure 2.2](#animation).
+
+![Animation](/materials/ResultPictures1/Animations/B0329+54_w1.gif)
+
+#### [Figure 2.2](#animation): 2D histogram animation of DM against peak intensity of pulsar B0329+54. The minimizer is given initial DM values between 0 and 200, trying to find the DM value at which the integrated intensity of the pulsar peaks the highest. The animation follows this process as more and more points are provided. 500 points are binned in this histogram.
+
+From the final frames of the [animation](#animation), one can see that the value of the $DM$ for the considered pulsar lies between 25 and 30. This represents a good check for the further results. On this page, we only present the animation for pulsar B0329+54, but animations for each analysed pulsar are found in the [Downloads](Downloads.md) section.
 
 ## 2.4 Calculation of disperion measure
 
@@ -76,7 +84,7 @@ The DMs are sequentially applied to the raw data which results in systematic rot
 
 #### [Slider 2.3](#slider-23): Dispersion measure against the peak of the integrated profile was plotted using MATLAB. The maximum value, represented by the yellow point, of these graphs were taken as the value for the DM. The black points represent the measured data while the red line is the best-fit. The red-dashed lines represent the uncertainty bounds chosen for each measured $DM$. The residuals are also plotted for each fit.
 
-A polynomial fit was applied to all pulsars except the Crab <span style="color: red">B0531+21</span>. For the Crab pulsar, a sum of gaussians was fitted to calculate the maximum of the $DM$ curve. The goodness of each fit was judged by the residual plot. The uncertainty bounds on each measured $DM$ was decided by chosing the points which lied at $97\%$ of the maxima on either sides. 
+A polynomial fit was applied to all pulsars except the Crab <span style="color: red">B0531+21</span>. For the Crab pulsar, a sum of gaussians was fitted to calculate the maximum of the $DM$ curve. The goodness of each fit was judged by the residual plot. The uncertainty bounds on each measured $DM$ was decided by chosing the points which lied at $97\%$ of the maxima on either sides.
 All pulsar DM values obtained this way, with their associated uncertainties, are presented in [Table 2.1](#table-21).
 
 ## 2.4.2 <mark>Method 2</mark> - Fitting the Spectrum
@@ -103,7 +111,7 @@ The DMs obtained from each of these fits together with their associated errors (
 
 ## 2.4.3 <mark>Method 3</mark> - Monte Carlo Simulation
 
-The final and most elegant method applied for calculating the $DM$ was performed by simulating 100 data sets by adding noise to the measured data. Each of these data sets are equally likely to be measured and the $DM$ was calculated for each of them. The following section details the methodology used to execute the analysis. 
+The final and most elegant method applied for calculating the $DM$ was performed by simulating 100 data sets by adding noise to the measured data. Each of these data sets are equally likely to be measured and the $DM$ was calculated for each of them. The following section details the methodology used to execute the analysis.
 
 In order the add noise to the measured data, the nature of the white noise in the data was studied. As shown in [Figure 2.2](#figure-22), the standard deviation in the noise was calculated in the integrated profile for each pulsar.
 
@@ -121,11 +129,11 @@ By understanding the nature of the white-noise, new noise data sets were simulat
 
 #### [Figure 2.3](#figure-23): The simulated noise (blue and green lines) are plotted with the white noise in the data (shown in red).
 
-100 such noise data sets were generated for each pulsar and added to the measured integrated profile data for each pulsar, which were shown in [Slider 2.2](#slider-22). This generated 100 simulated *signal data* sets of which 2 arbitary sets are shown in [Slider 2.6](#slider-26). As detailed in Method 1 in section 2.4.1, each data set was fitted with a polynomial function, or a sum of Gaussian functions in case of the Crab Pulsar, and the $DM$ was calculated. The calculated $DM$ for for all the 100 data sets was stored in an array and the mean $DM$ was measured. The uncertainty was quoted as the standard deviation in the obtained $DM$ values.   
+100 such noise data sets were generated for each pulsar and added to the measured integrated profile data for each pulsar, which were shown in [Slider 2.2](#slider-22). This generated 100 simulated *signal data* sets of which 2 arbitary sets are shown in [Slider 2.6](#slider-26). As detailed in Method 1 in section 2.4.1, each data set was fitted with a polynomial function, or a sum of Gaussian functions in case of the Crab Pulsar, and the $DM$ was calculated. The calculated $DM$ for for all the 100 data sets was stored in an array and the mean $DM$ was measured. The uncertainty was quoted as the standard deviation in the obtained $DM$ values.
 
 {% include slider.html selector="MonteCarlo" %}
 
-#### [Slider 2.6](#slider-26): Two of the 100 aribitary data sets were generated by adding white noise are plotted together to display the influence of noise in the data. 
+#### [Slider 2.6](#slider-26): Two of the 100 aribitary data sets were generated by adding white noise are plotted together to display the influence of noise in the data.
 
 All the results obtained using this method have been states in [Table 2.1](#table-21).
 
@@ -220,7 +228,7 @@ The results of the dispersion measure obtained using the three methods are state
   </tr>
 </table>
 
-#### [Table 2.1](#table-21): The $DM$ values calculated for all observed pulsars duing the 4-week duration of the experiment. Three-methods were adopted to measure $DM$ and the answers are consistent with each other. 
+#### [Table 2.1](#table-21): The $DM$ values calculated for all observed pulsars duing the 4-week duration of the experiment. Three-methods were adopted to measure $DM$ and the answers are consistent with each other.
 
 ## 2.6 Distance from Electron Density Models
 
@@ -230,7 +238,7 @@ The distance to the pulsar was estimated with the obtained values of $DM$ from [
 
 2. The <span style="color: green">YMW16 model developed by Yao, Manchester and Wang</span> [[7](About.md#6)] was also attempted. The model is built on the NE2001, however, has some differences. For example, the four-armed spiral pattern of the Galaxy is considered. It also considers many local features in the galaxy like the Local Bubble (LB), enhances regions of $n_e$ at the edges of the LB, etc. It additionally, discards prior SMs measurements and does not assume any clump or void formations based on $DM$ values.
 
-[Table 2.2](#table-22) shows the final results obtained using the measured $DM$ values from the Monte-Carlo method and using the NE2001 and YMW16 models respectively. 
+[Table 2.2](#table-22) shows the final results obtained using the measured $DM$ values from the Monte-Carlo method and using the NE2001 and YMW16 models respectively.
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
