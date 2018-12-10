@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     14784,        460]
-NotebookOptionsPosition[     13169,        398]
-NotebookOutlinePosition[     13505,        413]
-CellTagsIndexPosition[     13462,        410]
+NotebookDataLength[     23508,        673]
+NotebookOptionsPosition[     21602,        604]
+NotebookOutlinePosition[     21935,        619]
+CellTagsIndexPosition[     21892,        616]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -156,22 +156,58 @@ Cell["Weeks 2-3 period derivative", "Chapter",
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{"periodDerivatve1", " ", "=", " ", 
   FractionBox[
    RowBox[{"secondPeriodAlt", "-", "firstPeriodAlt"}], 
    RowBox[{
     RowBox[{"Abs", "[", 
      RowBox[{"58436.03609567", "-", "58443.9871659"}], "]"}], "*", 
-    "86400"}]]}]], "Input",
+    "86400"}]]}], "\[IndentingNewLine]", 
+ RowBox[{"\[Sigma]periodDerivate1", " ", "=", 
+  RowBox[{"periodDerivatve1", " ", "*", 
+   SqrtBox[
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["\[Sigma]secondPeriodAlt", "2"], "+", 
+       SuperscriptBox["\[Sigma]firstPeriodAlt", "2"]}], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"secondPeriodAlt", "-", "firstPeriodAlt"}], ")"}], "2"]], "+", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"47.477", "*", 
+          SuperscriptBox["10", 
+           RowBox[{"-", "6"}]]}], ")"}], "2"], "+", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"28.637", "*", 
+          SuperscriptBox["10", 
+           RowBox[{"-", "6"}]]}], ")"}], "2"]}], 
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"58436.03609567", "-", "58443.9871659"}], ")"}], "2"], "*", 
+       SuperscriptBox["86400", "2"]}]]}]]}]}]}], "Input",
  CellChangeTimes->{{3.753293170451405*^9, 3.753293200979772*^9}, {
    3.753293519278706*^9, 3.753293680308547*^9}, {3.753293792668995*^9, 
    3.753293798852109*^9}, {3.753295008153623*^9, 3.753295021263708*^9}, 
-   3.753295179573145*^9}],
+   3.753295179573145*^9, {3.7533930192302313`*^9, 3.753393113678816*^9}, {
+   3.753393224711884*^9, 3.753393248219906*^9}, {3.753393317136448*^9, 
+   3.753393374597282*^9}, {3.753393621256956*^9, 3.753393624526129*^9}}],
 
 Cell[BoxData["4.2099962807535196`*^-13"], "Output",
- CellChangeTimes->{3.753293804300468*^9, 3.753295025970643*^9, 
-  3.753295180775346*^9}]
+ CellChangeTimes->{
+  3.753293804300468*^9, 3.753295025970643*^9, 3.753295180775346*^9, {
+   3.753393362123187*^9, 3.75339337718336*^9}, 3.753393635456642*^9}],
+
+Cell[BoxData["1.4417650861605994`*^-17"], "Output",
+ CellChangeTimes->{
+  3.753293804300468*^9, 3.753295025970643*^9, 3.753295180775346*^9, {
+   3.753393362123187*^9, 3.75339337718336*^9}, 3.7533936354579363`*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -182,21 +218,57 @@ Cell["Weeks 3-4 period derivative", "Chapter",
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{"periodDerivatve2", " ", "=", " ", 
   FractionBox[
    RowBox[{"thirdPeriod", "-", "secondPeriodAlt"}], 
    RowBox[{
     RowBox[{"Abs", "[", 
      RowBox[{"58451.03463729", "-", "58443.9871659"}], "]"}], "*", 
-    "86400"}]]}]], "Input",
+    "86400"}]]}], "\[IndentingNewLine]", 
+ RowBox[{"\[Sigma]periodDerivate2", " ", "=", 
+  RowBox[{"periodDerivatve2", " ", "*", 
+   SqrtBox[
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["\[Sigma]thirdPeriod", "2"], "+", 
+       SuperscriptBox["\[Sigma]firstPeriodAlt", "2"]}], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"thirdPeriod", "-", "firstPeriodAlt"}], ")"}], "2"]], "+", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"47.477", "*", 
+          SuperscriptBox["10", 
+           RowBox[{"-", "6"}]]}], ")"}], "2"], "+", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"33.291", "*", 
+          SuperscriptBox["10", 
+           RowBox[{"-", "6"}]]}], ")"}], "2"]}], 
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"58451.03463729", "-", "58443.9871659"}], ")"}], "2"], "*", 
+       SuperscriptBox["86400", "2"]}]]}]]}]}]}], "Input",
  CellChangeTimes->{{3.753293824657324*^9, 3.7532938376330233`*^9}, {
-  3.753293912502487*^9, 3.753293922469266*^9}, {3.7532951572178288`*^9, 
-  3.753295177782271*^9}}],
+   3.753293912502487*^9, 3.753293922469266*^9}, {3.7532951572178288`*^9, 
+   3.753295177782271*^9}, {3.7533934097275*^9, 3.75339341664282*^9}, {
+   3.753393484558681*^9, 3.75339349681955*^9}, 3.7533936478355207`*^9, 
+   3.753393689642692*^9, {3.753393901084196*^9, 3.753393908076811*^9}}],
 
 Cell[BoxData["4.177037099641297`*^-13"], "Output",
  CellChangeTimes->{
-  3.75329392339255*^9, {3.753295163549677*^9, 3.75329518299622*^9}}]
+  3.75329392339255*^9, {3.753295163549677*^9, 3.75329518299622*^9}, 
+   3.753393757610121*^9, 3.7533939148684177`*^9}],
+
+Cell[BoxData["2.7106141463389124`*^-15"], "Output",
+ CellChangeTimes->{
+  3.75329392339255*^9, {3.753295163549677*^9, 3.75329518299622*^9}, 
+   3.753393757610121*^9, 3.753393914870891*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -220,7 +292,8 @@ Cell[BoxData[
 
 Cell[BoxData["4.1945095159858963`*^-13"], "Output",
  CellChangeTimes->{
-  3.753293990643488*^9, {3.753295169724126*^9, 3.7532951853935537`*^9}}]
+  3.753293990643488*^9, {3.753295169724126*^9, 3.7532951853935537`*^9}, 
+   3.7533937730227537`*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -232,22 +305,59 @@ Cell["Second period derivative", "Chapter",
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{"periodDDerivative", " ", "=", " ", 
   FractionBox[
    RowBox[{"periodDerivatve2", "-", "periodDerivatve1"}], 
    RowBox[{
     RowBox[{"Abs", "[", 
      RowBox[{"58436.03609567", "-", "58443.9871659"}], "]"}], "*", 
-    "86400"}]]}]], "Input",
+    "86400"}]]}], "\[IndentingNewLine]", 
+ RowBox[{"\[Sigma]periodDDerivative", " ", "=", " ", 
+  RowBox[{"periodDDerivative", "*", 
+   SqrtBox[
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["\[Sigma]periodDerivate2", "2"], "+", 
+       SuperscriptBox["\[Sigma]periodDerivate1", "2"]}], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"periodDerivatve2", "-", "periodDerivatve1"}], ")"}], "2"]], 
+     "+", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"47.477", "*", 
+          SuperscriptBox["10", 
+           RowBox[{"-", "6"}]]}], ")"}], "2"], "+", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"28.637", "*", 
+          SuperscriptBox["10", 
+           RowBox[{"-", "6"}]]}], ")"}], "2"]}], 
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"58436.03609567", "-", "58443.9871659"}], ")"}], "2"], "*", 
+       SuperscriptBox["86400", "2"]}]]}]]}]}]}], "Input",
  CellChangeTimes->{{3.753294056043228*^9, 3.753294088403173*^9}, 
    3.7532941220987377`*^9, {3.75329434610038*^9, 3.753294360027321*^9}, {
-   3.753295188977626*^9, 3.753295199004842*^9}}],
+   3.753295188977626*^9, 3.753295199004842*^9}, {3.7533937897741003`*^9, 
+   3.753393822621894*^9}, {3.75339420973195*^9, 3.753394255929434*^9}}],
 
 Cell[BoxData[
  RowBox[{"-", "4.797744109649091`*^-21"}]], "Output",
  CellChangeTimes->{
-  3.75329436180367*^9, {3.7532951896631317`*^9, 3.753295199523988*^9}}]
+  3.75329436180367*^9, {3.7532951896631317`*^9, 3.753295199523988*^9}, 
+   3.753393782580954*^9, 3.753394262686728*^9}],
+
+Cell[BoxData[
+ RowBox[{"-", "3.945794942739023`*^-21"}]], "Output",
+ CellChangeTimes->{
+  3.75329436180367*^9, {3.7532951896631317`*^9, 3.753295199523988*^9}, 
+   3.753393782580954*^9, 3.753394262687706*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -277,7 +387,7 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"\[ScriptCapitalI]", " ", "=", " ", 
      RowBox[{"1.0", "\[Times]", 
-      SuperscriptBox["10", "38"]}]}], ";"}], "\[IndentingNewLine]", 
+      SuperscriptBox["10", "30"]}]}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{"The", " ", "formulas"}], "*)"}], "\[IndentingNewLine]", 
@@ -291,6 +401,31 @@ Cell[BoxData[
       RowBox[{"3600", "*", "24", "*", "364.25"}]]}]}], "\[IndentingNewLine]", 
    
    RowBox[{
+    RowBox[{"\[Sigma]Age", "[", 
+     RowBox[{"p_", ",", "pd_", ",", "\[Sigma]p_", ",", "\[Sigma]pd_"}], "]"}],
+     ":=", 
+    SqrtBox[
+     RowBox[{
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox["1", 
+           RowBox[{"2", "*", "pd"}]], " ", "*", 
+          FractionBox["1", 
+           RowBox[{"3600", "*", "24", "*", "364.25"}]]}], ")"}], "2"], "*", 
+       SuperscriptBox["\[Sigma]p", "2"]}], "+", 
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          FractionBox["p", 
+           RowBox[{"2", "*", 
+            SuperscriptBox["pd", "2"]}]], " ", "*", 
+          FractionBox["1", 
+           RowBox[{"3600", "*", "24", "*", "364.25"}]]}], ")"}], "2"], "*", 
+       SuperscriptBox["\[Sigma]pd", "2"]}]}]]}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"B", " ", "[", 
      RowBox[{"p_", ",", "pd_"}], "]"}], ":=", 
     SqrtBox[
@@ -302,15 +437,20 @@ Cell[BoxData[
         SuperscriptBox["\[Pi]", "2"], "*", 
         SuperscriptBox["R", "6"], "*", 
         SuperscriptBox[
-         RowBox[{"Sin", "[", "\[Alpha]", "]"}], "2"]}]], "*", "p", "*", 
-      "pd"}]], " "}]}]}]], "Input",
+         RowBox[{"(", 
+          RowBox[{"Sin", "[", "\[Alpha]", "]"}], ")"}], "2"]}]], "*", "p", 
+      "*", "pd"}]], " "}]}]}]], "Input",
  CellChangeTimes->{
   3.7532943829604387`*^9, {3.753294415497278*^9, 3.753294532192378*^9}, {
    3.753294595604969*^9, 3.753294860645165*^9}, 3.75329558265117*^9, {
    3.753295845074641*^9, 3.753295875196878*^9}, {3.75329654746327*^9, 
    3.75329656251394*^9}, {3.7532971095815783`*^9, 3.753297133199892*^9}, {
    3.7532971898921833`*^9, 3.753297211833582*^9}, {3.753297273423089*^9, 
-   3.753297284363946*^9}}],
+   3.753297284363946*^9}, {3.753394417808598*^9, 3.753394466298972*^9}, {
+   3.753394516020226*^9, 3.753394551039652*^9}, {3.753394818039834*^9, 
+   3.753394835270496*^9}, {3.7533951765889883`*^9, 3.753395241081163*^9}, {
+   3.7533954681679564`*^9, 3.753395477253806*^9}, {3.7533955153854094`*^9, 
+   3.753395515751007*^9}, {3.753395683778056*^9, 3.75339568508149*^9}}],
 
 Cell[CellGroupData[{
 
@@ -325,35 +465,89 @@ Cell[BoxData[
     RowBox[{"Age", "[", 
      RowBox[{"firstPeriodAlt", ",", "periodDerivatve1"}], "]"}]}], 
    "\[IndentingNewLine]", 
+   RowBox[{"\[Sigma]Age", "[", 
+    RowBox[{
+    "firstPeriodAlt", ",", "periodDerivatve1", ",", "\[Sigma]firstPeriodAlt", 
+     ",", "\[Sigma]periodDerivate1"}], "]"}], "\[IndentingNewLine]", 
    RowBox[{"age2", " ", "=", " ", 
     RowBox[{"Age", "[", 
      RowBox[{"secondPeriodAlt", ",", "periodDerivatve1"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"\[Sigma]Age", "[", 
+    RowBox[{
+    "secondPeriodAlt", ",", "periodDerivatve1", ",", 
+     "\[Sigma]secondPeriodAlt", ",", "\[Sigma]periodDerivate1"}], "]"}], 
    "\[IndentingNewLine]", 
    RowBox[{"age3", " ", "=", " ", 
     RowBox[{"Age", "[", 
      RowBox[{"secondPeriodAlt", ",", " ", "periodDerivatve2"}], "]"}]}], 
    "\[IndentingNewLine]", 
+   RowBox[{"\[Sigma]Age", "[", 
+    RowBox[{
+    "secondPeriodAlt", ",", "periodDerivatve2", ",", 
+     "\[Sigma]secondPeriodAlt", ",", "\[Sigma]periodDerivate2"}], "]"}], 
+   "\[IndentingNewLine]", 
    RowBox[{"age4", " ", "=", " ", 
     RowBox[{"Age", "[", 
-     RowBox[{"thirdPeriod", ",", "periodDerivatve2"}], "]"}]}]}]}]], "Input",
+     RowBox[{"thirdPeriod", ",", "periodDerivatve2"}], "]"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"\[Sigma]Age", "[", 
+    RowBox[{
+    "thirdPeriodAlt", ",", "periodDerivatve2", ",", "\[Sigma]thirdPeriodAlt", 
+     ",", "\[Sigma]periodDerivate2"}], "]"}]}]}]], "Input",
  CellChangeTimes->{{3.753295746728087*^9, 3.753295828633457*^9}, {
-  3.753295910607744*^9, 3.7532959230193157`*^9}}],
+  3.753295910607744*^9, 3.7532959230193157`*^9}, {3.753394560307061*^9, 
+  3.753394597452031*^9}, {3.7533946470556393`*^9, 3.753394658746873*^9}, {
+  3.7533947344532003`*^9, 3.753394734674177*^9}, {3.7533947671204557`*^9, 
+  3.7533948057646847`*^9}}],
 
 Cell[BoxData["1273.850151854665`"], "Output",
- CellChangeTimes->{3.753295829886135*^9, 3.7532958799076147`*^9, 
-  3.753295925152199*^9, 3.753297290049843*^9}],
+ CellChangeTimes->{
+  3.753295829886135*^9, 3.7532958799076147`*^9, 3.753295925152199*^9, 
+   3.753297290049843*^9, 3.7533946080181704`*^9, 3.7533946597921762`*^9, {
+   3.753394780873461*^9, 3.753394806748575*^9}}],
+
+Cell[BoxData["0.043624567612467476`"], "Output",
+ CellChangeTimes->{
+  3.753295829886135*^9, 3.7532958799076147`*^9, 3.753295925152199*^9, 
+   3.753297290049843*^9, 3.7533946080181704`*^9, 3.7533946597921762`*^9, {
+   3.753394780873461*^9, 3.753394806749813*^9}}],
 
 Cell[BoxData["1273.8610661583436`"], "Output",
- CellChangeTimes->{3.753295829886135*^9, 3.7532958799076147`*^9, 
-  3.753295925152199*^9, 3.753297290051241*^9}],
+ CellChangeTimes->{
+  3.753295829886135*^9, 3.7532958799076147`*^9, 3.753295925152199*^9, 
+   3.753297290049843*^9, 3.7533946080181704`*^9, 3.7533946597921762`*^9, {
+   3.753394780873461*^9, 3.7533948067509537`*^9}}],
+
+Cell[BoxData["0.04362494138616804`"], "Output",
+ CellChangeTimes->{
+  3.753295829886135*^9, 3.7532958799076147`*^9, 3.753295925152199*^9, 
+   3.753297290049843*^9, 3.7533946080181704`*^9, 3.7533946597921762`*^9, {
+   3.753394780873461*^9, 3.753394806752842*^9}}],
 
 Cell[BoxData["1283.912549204766`"], "Output",
- CellChangeTimes->{3.753295829886135*^9, 3.7532958799076147`*^9, 
-  3.753295925152199*^9, 3.753297290052286*^9}],
+ CellChangeTimes->{
+  3.753295829886135*^9, 3.7532958799076147`*^9, 3.753295925152199*^9, 
+   3.753297290049843*^9, 3.7533946080181704`*^9, 3.7533946597921762`*^9, {
+   3.753394780873461*^9, 3.753394806754004*^9}}],
+
+Cell[BoxData["8.33172278703332`"], "Output",
+ CellChangeTimes->{
+  3.753295829886135*^9, 3.7532958799076147`*^9, 3.753295925152199*^9, 
+   3.753297290049843*^9, 3.7533946080181704`*^9, 3.7533946597921762`*^9, {
+   3.753394780873461*^9, 3.753394806755077*^9}}],
 
 Cell[BoxData["1283.9222231531396`"], "Output",
- CellChangeTimes->{3.753295829886135*^9, 3.7532958799076147`*^9, 
-  3.753295925152199*^9, 3.7532972900532923`*^9}]
+ CellChangeTimes->{
+  3.753295829886135*^9, 3.7532958799076147`*^9, 3.753295925152199*^9, 
+   3.753297290049843*^9, 3.7533946080181704`*^9, 3.7533946597921762`*^9, {
+   3.753394780873461*^9, 3.753394806756154*^9}}],
+
+Cell[BoxData["8.331785415126708`"], "Output",
+ CellChangeTimes->{
+  3.753295829886135*^9, 3.7532958799076147`*^9, 3.753295925152199*^9, 
+   3.753297290049843*^9, 3.7533946080181704`*^9, 3.7533946597921762`*^9, {
+   3.753394780873461*^9, 3.7533948067572203`*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -382,22 +576,34 @@ Cell[BoxData[
      RowBox[{"thirdPeriod", ",", "periodDerivatve2"}], "]"}]}]}]}]], "Input",
  CellChangeTimes->{{3.753297293007185*^9, 3.7532974271983967`*^9}}],
 
-Cell[BoxData["1.20617229452424`*^12"], "Output",
- CellChangeTimes->{3.753297429225854*^9}],
+Cell[BoxData["1.2061722945242397`*^8"], "Output",
+ CellChangeTimes->{
+  3.753297429225854*^9, {3.753395187691041*^9, 3.753395197598096*^9}, {
+   3.753395232414308*^9, 3.7533952446516323`*^9}, 3.753395519490843*^9, 
+   3.753395688627729*^9}],
 
-Cell[BoxData["1.2061774617342505`*^12"], "Output",
- CellChangeTimes->{3.753297429227232*^9}],
+Cell[BoxData["1.2061774617342503`*^8"], "Output",
+ CellChangeTimes->{
+  3.753297429225854*^9, {3.753395187691041*^9, 3.753395197598096*^9}, {
+   3.753395232414308*^9, 3.7533952446516323`*^9}, 3.753395519490843*^9, 
+   3.7533956886306267`*^9}],
 
-Cell[BoxData["1.201446728916129`*^12"], "Output",
- CellChangeTimes->{3.753297429229035*^9}],
+Cell[BoxData["1.2014467289161287`*^8"], "Output",
+ CellChangeTimes->{
+  3.753297429225854*^9, {3.753395187691041*^9, 3.753395197598096*^9}, {
+   3.753395232414308*^9, 3.7533952446516323`*^9}, 3.753395519490843*^9, 
+   3.753395688631917*^9}],
 
-Cell[BoxData["1.2014512552024956`*^12"], "Output",
- CellChangeTimes->{3.753297429230871*^9}]
+Cell[BoxData["1.2014512552024956`*^8"], "Output",
+ CellChangeTimes->{
+  3.753297429225854*^9, {3.753395187691041*^9, 3.753395197598096*^9}, {
+   3.753395232414308*^9, 3.7533952446516323`*^9}, 3.753395519490843*^9, 
+   3.7533956886332417`*^9}]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{808, 911},
-WindowMargins->{{Automatic, 391}, {Automatic, 123}},
+WindowSize->{1869, 1052},
+WindowMargins->{{670, -670}, {Automatic, 151}},
 FrontEndVersion->"11.0 for Linux x86 (64-bit) (July 28, 2016)",
 StyleDefinitions->"Default.nb"
 ]
@@ -418,48 +624,55 @@ Cell[690, 25, 4286, 124, 384, "Input"],
 Cell[CellGroupData[{
 Cell[5001, 153, 114, 1, 66, "Chapter"],
 Cell[CellGroupData[{
-Cell[5140, 158, 500, 11, 63, "Input"],
-Cell[5643, 171, 140, 2, 34, "Output"]
+Cell[5140, 158, 1648, 41, 152, "Input"],
+Cell[6791, 201, 211, 3, 34, "Output"],
+Cell[7005, 206, 213, 3, 34, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5832, 179, 114, 1, 66, "Chapter"],
+Cell[7267, 215, 114, 1, 66, "Chapter"],
 Cell[CellGroupData[{
-Cell[5971, 184, 427, 10, 63, "Input"],
-Cell[6401, 196, 139, 2, 34, "Output"]
+Cell[7406, 220, 1563, 40, 152, "Input"],
+Cell[8972, 262, 189, 3, 34, "Output"],
+Cell[9164, 267, 188, 3, 34, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6589, 204, 112, 1, 66, "Chapter"],
+Cell[9401, 276, 112, 1, 66, "Chapter"],
 Cell[CellGroupData[{
-Cell[6726, 209, 376, 9, 63, "Input"],
-Cell[7105, 220, 144, 2, 34, "Output"]
+Cell[9538, 281, 376, 9, 63, "Input"],
+Cell[9917, 292, 172, 3, 34, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7298, 228, 164, 2, 66, "Chapter"],
+Cell[10138, 301, 164, 2, 66, "Chapter"],
 Cell[CellGroupData[{
-Cell[7487, 234, 455, 10, 63, "Input"],
-Cell[7945, 246, 159, 3, 34, "Output"]
+Cell[10327, 307, 1519, 40, 152, "Input"],
+Cell[11849, 349, 207, 4, 34, "Output"],
+Cell[12059, 355, 207, 4, 34, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8165, 256, 109, 1, 93, "Title"],
-Cell[8277, 259, 1990, 53, 296, "Input"],
+Cell[12327, 366, 109, 1, 93, "Title"],
+Cell[12439, 369, 3203, 83, 381, "Input"],
 Cell[CellGroupData[{
-Cell[10292, 316, 908, 23, 128, "Input"],
-Cell[11203, 341, 158, 2, 30, "Output"],
-Cell[11364, 345, 159, 2, 30, "Output"],
-Cell[11526, 349, 158, 2, 30, "Output"],
-Cell[11687, 353, 161, 2, 30, "Output"]
+Cell[15667, 456, 1901, 45, 224, "Input"],
+Cell[17571, 503, 260, 4, 30, "Output"],
+Cell[17834, 509, 263, 4, 30, "Output"],
+Cell[18100, 515, 263, 4, 30, "Output"],
+Cell[18366, 521, 262, 4, 30, "Output"],
+Cell[18631, 527, 260, 4, 30, "Output"],
+Cell[18894, 533, 259, 4, 30, "Output"],
+Cell[19156, 539, 261, 4, 30, "Output"],
+Cell[19420, 545, 262, 4, 30, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[11885, 360, 879, 22, 128, "Input"],
-Cell[12767, 384, 90, 1, 34, "Output"],
-Cell[12860, 387, 92, 1, 34, "Output"],
-Cell[12955, 390, 91, 1, 34, "Output"],
-Cell[13049, 393, 92, 1, 34, "Output"]
+Cell[19719, 554, 879, 22, 128, "Input"],
+Cell[20601, 578, 240, 4, 34, "Output"],
+Cell[20844, 584, 242, 4, 34, "Output"],
+Cell[21089, 590, 240, 4, 34, "Output"],
+Cell[21332, 596, 242, 4, 34, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
