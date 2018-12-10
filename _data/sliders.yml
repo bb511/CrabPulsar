@@ -132,7 +132,7 @@
     - src: /materials/ResultPictures1/DensityPlots/B2020+28_w2.png
       alt: B2020+28 Pulsar
     - src: /materials/ResultPictures1/DensityPlots/B2111+46_w4.png
-      alt: B2111+46 Pulsar               
+      alt: B2111+46 Pulsar
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -156,7 +156,7 @@
     - src: /materials/ResultPictures1/IntegratedProfiles/B2020+28_w2.png
       alt: B2020+28 Pulsar
     - src: /materials/ResultPictures1/IntegratedProfiles/B2111+46_w4.png
-      alt: B2111+46 Pulsar          
+      alt: B2111+46 Pulsar
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -180,7 +180,7 @@
     - src: /materials/ResultPictures1/DMCurves/B2020+28_w2.jpg
       alt: B2020+28 Pulsar
     - src: /materials/ResultPictures1/DMCurves/B2111+46_W4.jpg
-      alt: B2111+46 Pulsar                                          
+      alt: B2111+46 Pulsar
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -205,7 +205,7 @@
     - src: /materials/ResultPictures1/RowGrids/B2020+28_w2.png
       alt: B2020+28 Pulsar
     - src: /materials/ResultPictures1/RowGrids/B2111+46_w4.png
-      alt: B2111+46 Pulsar                     
+      alt: B2111+46 Pulsar
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -226,7 +226,7 @@
     - src: /materials/ResultPictures1/SpectrumFits/B1933+16_w2.png
       alt: B1933+16 Pulsar
     - src: /materials/ResultPictures1/SpectrumFits/B2020+28_w2.png
-      alt: B2020+28 Pulsar     
+      alt: B2020+28 Pulsar
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -242,13 +242,13 @@
     - src: /materials/ResultPictures1/monteCarlo/B1642-03_w3.png
       alt: B1642-03 Pulsar
     - src: /materials/ResultPictures1/monteCarlo/B1929+10_w4.png
-      alt: B1929+10 Pulsar      
+      alt: B1929+10 Pulsar
     - src: /materials/ResultPictures1/monteCarlo/B1933+16_w2.png
-      alt: B1933+16 Pulsar  
+      alt: B1933+16 Pulsar
     - src: /materials/ResultPictures1/monteCarlo/B2020+28_w2.png
       alt: B2020+28 Pulsar
     - src: /materials/ResultPictures1/monteCarlo/B2111+46_w4.png
-      alt: B2111+46 Pulsar (Noisy)                
+      alt: B2111+46 Pulsar (Noisy)
   settings:
     height: "'auto'"
     effect: "'fade'"
@@ -285,7 +285,147 @@
     - src: /materials/VisibilityTables/27thNovember.jpg
       alt: 27th November
     - src: /materials/VisibilityTables/29thNovember.jpg
-      alt: 29th November       
+      alt: 29th November
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+# ------------------------------------------------------------------------------
+#                       Timing analysis sliders
+#-------------------------------------------------------------------------------
+
+- selector: Templates
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures3/Templates/B0531+21.png
+      alt: PSR B0531+21
+    - src: /materials/ResultPictures3/Templates/B0329+54.png
+      alt: PSR B0329+54
+    - src: /materials/ResultPictures3/Templates/B1642-03.png
+      alt: PSR B1642-03
+    - src: /materials/ResultPictures3/Templates/B1933+16.png
+      alt: PSR B1933+16
+    - src: /materials/ResultPictures3/Templates/B2020+28.png
+      alt: PSR B2020+28
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: Remainders
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures3/ResidualsGuess/Crab1.png
+      alt: PSR B0531+21 W1
+    - src: /materials/ResultPictures3/ResidualsGuess/Crab2.png
+      alt: PSR B0531+21 W2
+    - src: /materials/ResultPictures3/ResidualsGuess/Crab3.png
+      alt: PSR B0531+21 W3
+    - src: /materials/ResultPictures3/ResidualsGuess/B0329+54.png
+      alt: PSR B0329+54
+    - src: /materials/ResultPictures3/ResidualsGuess/B1642-03.png
+      alt: PSR B1642-03
+    - src: /materials/ResultPictures3/ResidualsGuess/B1933+16.png
+      alt: PSR B1933+16
+    - src: /materials/ResultPictures3/ResidualsGuess/B2020+28.png
+      alt: PSR B2020+28
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: RemaindersMethod1
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures3/CorrectedRes/Crab1.png
+      alt: PSR B0531+21 W1
+    - src: /materials/ResultPictures3/CorrectedRes/Crab2.png
+      alt: PSR B0531+21 W2
+    - src: /materials/ResultPictures3/CorrectedRes/Crab3.png
+      alt: PSR B0531+21 W3
+    - src: /materials/ResultPictures3/CorrectedRes/B0329+54.png
+      alt: PSR B0329+54
+    - src: /materials/ResultPictures3/CorrectedRes/B1642-03.png
+      alt: PSR B1642-03
+    - src: /materials/ResultPictures3/CorrectedRes/B1933+16.png
+      alt: PSR B1933+16
+    - src: /materials/ResultPictures3/CorrectedRes/B2020+28.png
+      alt: PSR B2020+28
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: FittedRemaindersTogether
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures3/FittedRemaindersTogether/Crab1.png
+      alt: PSR B0531+21 W1
+    - src: /materials/ResultPictures3/FittedRemaindersTogether/Crab2.png
+      alt: PSR B0531+21 W2
+    - src: /materials/ResultPictures3/FittedRemaindersTogether/Crab3.png
+      alt: PSR B0531+21 W3
+    - src: /materials/ResultPictures3/FittedRemaindersTogether/B0329+54.png
+      alt: PSR B0329+54
+    - src: /materials/ResultPictures3/FittedRemaindersTogether/B1642-03.png
+      alt: PSR B1642-03
+    - src: /materials/ResultPictures3/FittedRemaindersTogether/B1933+16.png
+      alt: PSR B1933+16
+    - src: /materials/ResultPictures3/FittedRemaindersTogether/B2020+28.png
+      alt: PSR B2020+28
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+
+- selector: RemaindersMethod2
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures3/CorrectedResAlt/Crab1.png
+      alt: PSR B0531+21 W1
+    - src: /materials/ResultPictures3/CorrectedResAlt/Crab2.png
+      alt: PSR B0531+21 W2
+    - src: /materials/ResultPictures3/CorrectedResAlt/Crab3.png
+      alt: PSR B0531+21 W3
+    - src: /materials/ResultPictures3/CorrectedResAlt/B0329+54.png
+      alt: PSR B0329+54
+    - src: /materials/ResultPictures3/CorrectedResAlt/B1642-03.png
+      alt: PSR B1642-03
+    - src: /materials/ResultPictures3/CorrectedResAlt/B1933+16.png
+      alt: PSR B1933+16
+    - src: /materials/ResultPictures3/CorrectedResAlt/B2020+28.png
+      alt: PSR B2020+28
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+
+- selector: QuadraticFits
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures3/QuadraticFits/Crab1.png
+      alt: PSR B0531+21 W1
+    - src: /materials/ResultPictures3/QuadraticFits/Crab2.png
+      alt: PSR B0531+21 W2
+    - src: /materials/ResultPictures3/QuadraticFits/Crab3.png
+      alt: PSR B0531+21 W3
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
+
+- selector: RemaindersQuadratics
+  bullets: true
+  captions: true
+  images:
+    - src: /materials/ResultPictures3/CorrectedResidualsDouble/Crab1.png
+      alt: PSR B0531+21 W1
+    - src: /materials/ResultPictures3/CorrectedResidualsDouble/Crab2.png
+      alt: PSR B0531+21 W2
+    - src: /materials/ResultPictures3/CorrectedResidualsDouble/Crab3.png
+      alt: PSR B0531+21 W3
   settings:
     height: "'auto'"
     effect: "'fade'"
