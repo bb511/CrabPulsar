@@ -79,7 +79,7 @@ E_\mathrm{rot} = \frac{1}{2}I\Omega ^2 = \frac{2\pi ^2 I}{P^2}
 \end{equation}
 and thus the moment of inertia for the canonical pulsar can be calculated, giving
 \begin{equation}
-\boxed{I = \frac{2}{5}MR^2 \approx 10^{38} \hspace{0.1cm} \mathrm{kg m^2}}
+\boxed{I = \frac{2}{5}MR^2 \approx 10^{30} \hspace{0.1cm} \mathrm{kg m^2}}
 \end{equation}
 
 The pulsars that we obesrve today are slowing down gradually (i.e. period derivative is larger than 0). From the obesrved period and period derivative, one can estimate the rate at which the rotational energy is decreasing. By using Equation (10), we obtain
@@ -156,7 +156,7 @@ E_\mathrm{delay} = \frac{R_E \mathrm{sin}(ALT)}{c}
 
 where $R_E$ is the radius of the Earth, $ALT$ is the altitude of the pulsar at the respective ToA and $c$ is the speed of light. A figure of the Earth delays for the first observation fo the Crab pulsar is show in [Figure 1](#figure-1). The ToA microsecond errors were propagated to the altitude and earth delay, proving to be negligible. The exact values are available in each timing analysis notebook, available in the [Downloads](#Downloads.md) section.
 
-[Figure 1](/materials/ResultPictures3/DelayPlots.png)
+![Figure 1](/materials/ResultPictures3/DelayPlots.png)
 
 #### Figure 1: The barycenter and the Earth delays, side by side.
 
@@ -209,7 +209,7 @@ As before, this method's accuracy was also tested by plotting the new remainders
 
 {% include slider.html selector="RemaindersMethod2" %}
 
-#### Slider 4.5: The remainders obtained by dividing the pulsar ToAs with the period calculated through the second method for every considered pulsar.
+#### Slider 4.5: The remainders obtained by dividing the pulsar ToAs with the period calculated through the second method for every considered pulsar. For pulsar B2020+28, the measurement was too noisy to get a correct period.
 
 From these figures and knowing the conditions in which each measurement is taken, it is easy to tell that Method 2 is better for high quality mesurements, while Method 1 is better for lower quality ones. The period of each pulsar and the associated errors are presented in [Table 4.1](#table-41).
 
