@@ -336,5 +336,14 @@ The tables summarize all the results obtained by the timing analysis. The period
   </tr>
 </table>
 
-#### [Table 4.2](#table-42): The period derivative for the Crab measurements are quoted. 
+#### [Table 4.2](#table-42): The period derivative for the Crab measurements are quoted.
 
+
+
+### Approximate Age and Surface Magnetic Field of the Crab Pulsar
+
+The approximate characteristic age of the Crab pulsar is $Age \approx 1273.85$ years.
+
+The approximate surface magnetic field of the Crab pulsar is $B \approx 1.2 \times 10^8$ T.
+
+Finally, the second period derivative was also calculated but only an approximate value could be obtained, which is $\approx -4.8 \times 10^{-21}$ s$^{-1}$.
