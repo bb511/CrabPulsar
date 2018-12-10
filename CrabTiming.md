@@ -243,4 +243,61 @@ When replotting the remainders, this time correcting for the period derivative a
 
 ## 4.10 Results and Summary
 
-The period derivative and the period of the Crab Pulsar was used to calculate its minimum surface magnetic field and its age.
+The tables summarize all the results obtained by the timing analysis. The period derivative and the period of the Crab Pulsar was used to calculate its minimum surface magnetic field and its age.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-cjtp{background-color:#ecf4ff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fgdu{font-weight:bold;background-color:#ecf4ff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-cyze{font-weight:bold;background-color:#cbcefb;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-cjtp" rowspan="2"><span style="font-weight:bold">Pulsar name</span></th>
+    <th class="tg-fgdu" colspan="2">Period (seconds)</th>
+  </tr>
+  <tr>
+    <td class="tg-cyze">Method 1</td>
+    <td class="tg-cyze">Method 2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">B0329+54</td>
+    <td class="tg-0lax">0.03375705(4)</td>
+    <td class="tg-0lax">0.0337570584(1)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">B1642-03</td>
+    <td class="tg-0lax">0.38771567(1)</td>
+    <td class="tg-0lax">0.38771569(3)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">B1933+16</td>
+    <td class="tg-0lax">0.35879058(3)</td>
+    <td class="tg-0lax">0.358790498(7)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">B2020+28</td>
+    <td class="tg-0lax" colspan="2">0.343445657(5)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crab (Week 1)</td>
+    <td class="tg-0lax">0.033755409(4)</td>
+    <td class="tg-0lax">0.03375540740(1)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crab (Week 2)</td>
+    <td class="tg-0lax">0.033755697(3)</td>
+    <td class="tg-0lax">0.03375569661(1)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crab (Week 3)</td>
+    <td class="tg-0lax">0.033755950(3)</td>
+    <td class="tg-0lax">0.03375595035(7)</td>
+  </tr>
+</table>
+
+#### [Table 4.1](#table-41): The period values obtained by correcting the period residuals for all the measurements.
+
