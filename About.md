@@ -227,6 +227,100 @@ The final results as quoted in [Section 3: Fourier transforms](FourierTransform#
 ### 5.1.3 *Period, Period derivative* and *magnetic field* results obtained from Timing Analysis of 4 pulsars
 
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-cjtp{background-color:#ecf4ff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fgdu{font-weight:bold;background-color:#ecf4ff;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-cyze{font-weight:bold;background-color:#cbcefb;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-cjtp" rowspan="2"><span style="font-weight:bold">Pulsar name</span></th>
+    <th class="tg-fgdu" colspan="2">Period (seconds)</th>
+  </tr>
+  <tr>
+    <td class="tg-cyze">Method 1</td>
+    <td class="tg-cyze">Method 2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">B0329+54</td>
+    <td class="tg-0lax">0.03375705(4)</td>
+    <td class="tg-0lax">0.0337570584(1)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">B1642-03</td>
+    <td class="tg-0lax">0.38771567(1)</td>
+    <td class="tg-0lax">0.38771569(3)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">B1933+16</td>
+    <td class="tg-0lax">0.35879058(3)</td>
+    <td class="tg-0lax">0.358790498(7)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">B2020+28</td>
+    <td class="tg-0lax" colspan="2">0.343445657(5)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crab (Week 1)</td>
+    <td class="tg-0lax">0.033755409(4)</td>
+    <td class="tg-0lax">0.03375540740(1)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crab (Week 2)</td>
+    <td class="tg-0lax">0.033755697(3)</td>
+    <td class="tg-0lax">0.03375569661(1)</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crab (Week 3)</td>
+    <td class="tg-0lax">0.033755950(3)</td>
+    <td class="tg-0lax">0.03375595035(7)</td>
+  </tr>
+</table>
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-sgaa{font-weight:bold;background-color:#ecf4ff;color:#000000;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-rlaa{font-weight:bold;background-color:#cbcefb;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-f39b{background-color:#ecf4ff;color:#000000;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-f39b" rowspan="2"><span style="font-weight:bold">Pulsar name</span></th>
+    <th class="tg-sgaa" colspan="2">Period derivative</th>
+  </tr>
+  <tr>
+    <td class="tg-rlaa">Method 1</td>
+    <td class="tg-rlaa">Method 2</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crab (Week 1)</td>
+    <td class="tg-0lax">4.21e-13</td>
+    <td class="tg-0lax">4.01e-13</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crab (Week 2)</td>
+    <td class="tg-0lax">4.17(3)e-13</td>
+    <td class="tg-0lax">4.02e-13</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Crab (Week 3)</td>
+    <td class="tg-0lax">4.2e-13</td>
+    <td class="tg-0lax">4.03e-13</td>
+  </tr>
+</table>
+
+
+The approximate characteristic age of the Crab pulsar is $Age \approx 1273.85$ years.
+
+The approximate surface magnetic field of the Crab pulsar is $B \approx 1.2 \times 10^8$ T.
 
 
 ## 5.2 References
