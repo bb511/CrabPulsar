@@ -42,14 +42,6 @@ The $n^{th}$ harmonic has a frequency $v_n = Nv$ where $N$ is the total number o
 Six data streams of different pulsars, as measured by the 76-m Lovell telescope, were used for analysis. The de-dispersed time-series was plotted, as shown in [Slider 3.1](#slider-31), and the time was calibrated on the x-axis by using the total integration time.
 
 
-#### [Figure 2](#figure-2): The Fourier transform of the time series for the Pulsar 1 data set. The red points show the peaks in the power spectrum at different frequencies. They represent the harmnoics of the fundamental frequency $v$.
-
-## 3.3 Fourier transform of the time series
-
-Six data streams of different pulsars, as measured by the 76-m Lovell telescope, were used for analysis. The de-dispersed time-series was plotted, as shown in [Slider 3.1](#slider-31), and the time was calibrated on the x-axis by using the total integration time.
->>>>>>> DispersionMeasure
-
-
 <a name="slider-31"></a>
 
 {% include slider.html selector="TS" %}
